@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_retangle_boder"
+    android:orientation="vertical" 
+    
+    >
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_18sp"
+        android:text="@string/title_popup_sort"
+        custom:txtEng="@string/title_popup_sort"
+        custom:txtJa="@string/title_popup_sort_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_sort_date_name_id"
+        android:layout_width="@dimen/dimen_180dp"
+	    android:layout_height="@dimen/dimen_23dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:text="@string/title_btn_name_sort"
+        custom:txtEng="@string/title_btn_name_sort"
+        custom:txtJa="@string/title_btn_name_sort_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_sort_date_date_id"
+        android:layout_width="@dimen/dimen_180dp"
+	    android:layout_height="@dimen/dimen_23dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:text="@string/title_btn_date_sort"
+        custom:txtEng="@string/title_btn_date_sort"
+        custom:txtJa="@string/title_btn_date_sort_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_sort_date_cate_id"
+        android:layout_width="@dimen/dimen_180dp"
+	    android:layout_height="@dimen/dimen_23dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:text="@string/title_btn_category_sort"
+        custom:txtEng="@string/title_btn_category_sort"
+        custom:txtJa="@string/title_btn_category_sort_j" />
+
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_20dp"
+        />
+
+</LinearLayout>

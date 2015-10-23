@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+    <ScrollView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:visibility="visible">
+
+        	<LinearLayout
+        	    android:id="@+id/profile_main"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:gravity="center|center_vertical"
+        	    android:orientation="vertical" >
+
+		    <RelativeLayout 
+		        android:id="@+id/term_value"
+		        android:layout_width="@dimen/dimen_300dp"
+		        android:layout_height="fill_parent"
+		        android:layout_marginTop="@dimen/dimen_10dp"
+		        android:visibility="visible">
+		    </RelativeLayout>
+			
+		</LinearLayout>
+         	
+    </ScrollView>
+      
+	<com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </com.acv.cheerz.base.view.LoadingView>
+</RelativeLayout>

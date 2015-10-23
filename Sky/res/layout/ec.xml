@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:flipview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <org.com.atmarkcafe.view.HeaderECView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderECView>
+
+        <RelativeLayout
+            android:id="@+id/main_block"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:visibility="visible">
+
+            <ScrollView
+                android:id="@+id/scroll_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@drawable/tranfer"
+                android:dividerHeight="0px"
+                android:listSelector="@drawable/tranfer"
+                android:scrollbarThumbVertical="@drawable/tranfer"
+                android:scrollbarTrackHorizontal="@drawable/tranfer"
+                android:layout_above="@+id/block_myaccount"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/ec_ll_search_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ec_bg_search"
+                android:orientation="horizontal" >
+            </LinearLayout><!-- #036898 -->
+            
+            <LinearLayout
+                android:id="@+id/block_myaccount" 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_70dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center">
+                	<RelativeLayout 
+                	    android:id="@+id/btn_myaccount"
+                	    android:layout_width="@dimen/dimen_300dp"
+                	    android:layout_height="@dimen/dimen_40dp"
+                	    android:background="@drawable/btn_checkout"
+                	    android:gravity="center">
+                	    	<LinearLayout 
+                	    	    android:layout_width="@dimen/dimen_40dp"
+                	    	    android:layout_height="match_parent"
+                	    	    android:gravity="center_vertical|center_horizontal">
+                	    	    	<ImageView 
+				                	    android:layout_width="@dimen/dimen_15dp"
+				                	    android:layout_height="@dimen/dimen_16dp"
+				                	    android:background="@drawable/myaccount_icon"
+				                	    android:layout_marginLeft="@dimen/dimen_20dp"/>
+                	    	</LinearLayout>
+                	    	
+		                	<org.com.atmarkcafe.sky.customviews.charting.MTextView
+		                	    android:layout_width="wrap_content"
+		                	    android:layout_height="match_parent"
+		                	    android:layout_alignParentLeft="true"
+		                	    android:layout_alignParentRight="true"
+		                	    android:gravity="center_vertical|center_horizontal"
+		                	    android:text="@string/myaccount"
+		                	    custom:txtEng="@string/myaccount"
+		                	    custom:txtJa="@string/myaccount_j"
+		                	    android:textColor="#ffffff"
+		                	    android:textSize="@dimen/dimen_20dp" />
+
+                	</RelativeLayout>
+                	
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

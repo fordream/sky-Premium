@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" 
+    android:id="@+id/main_detail"
+    >
+
+    <LinearLayout
+        android:id="@+id/contact_content_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <org.com.atmarkcafe.view.HeaderView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderView>
+		<TextView 
+		    android:id="@+id/user_expired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            style="@style/v2_sky_ec_address_value"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10dp"
+            android:textColor="#ff4747"/>
+        <RelativeLayout
+            android:id="@+id/contact_catalog_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_35dp"
+            android:background="#dedede" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/contact_header_catalog_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:text="@string/contact_update_contract"
+                custom:txtEng="@string/contact_update_contract"
+                custom:txtJa="@string/contact_update_contract_j" />
+
+            <ImageView
+                android:id="@+id/contact_header_catalog_icon_id"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:src="@drawable/ico_indi_gray" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen_15dp"
+            android:layout_marginRight="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@drawable/editext_radius"
+            android:orientation="vertical" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                android:id="@+id/contact_title_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_5dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                custom:txtHintEng="@string/contact_us_title_content"
+                custom:txtHintJa="@string/contact_us_title_content_j" 
+                android:longClickable="false"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200dp"
+            android:layout_marginLeft="@dimen/dimen_15dp"
+            android:layout_marginRight="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@drawable/editext_radius"
+            >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                android:id="@+id/contact_content_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/contact_us_content"
+                custom:txtHintEng="@string/contact_us_content"
+                custom:txtHintJa="@string/contact_us_content_j" 
+                android:longClickable="false"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_5dp" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MButton
+                android:id="@+id/contact_btn_confirm_id"
+                android:layout_width="@dimen/dimen_140dp"
+			    android:layout_height="@dimen/dimen_40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_ok_radius"
+                android:text="@string/tlt_send"
+                custom:txtEng="@string/tlt_send"
+                custom:txtJa="@string/tlt_send_j"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/dimen_18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#FFFFFF"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/contactlist_ll_contact_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#dfdcdc"
+             >
+
+            <ImageView
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_contact_gray" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/contact_us_screen_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/contact_us_title"
+                android:textColor="#555555"
+                custom:txtEng="@string/contact_us_title"
+                custom:txtJa="@string/contact_us_title_j" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactlist_ll_contact_history_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" 
+            android:background="#FFFFFF"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_infor_green" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/contact_us_history_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/contact_us_title"
+                custom:txtEng="@string/contact_history_list"
+                custom:txtJa="@string/contact_history_list_j" 
+                android:textColor="@color/menu_left"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" 
+        android:visibility="gone">
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

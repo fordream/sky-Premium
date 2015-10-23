@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body, html{
+	/* background: url(null) fixed; */
+	background-color: #fff;
+	margin: 6px 6px;
+}
+body{
+	background-color: #fff;
+	font-size: 10.5pt;
+	color: #2b2b2b;
+	font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', sans-serif;
+}
+h1{
+	font-size: 13pt;
+	text-align: left;
+}
+h2{
+	margin: 5px 0.3em 0px 0.3em;
+	padding: 3px 0;
+        text-align: center;
+	font-size: 12pt;
+	color: #2b2b2b;
+}
+h3{
+	margin: 5px 16px 15px;
+	padding: 3px;
+	font-size: 11pt;
+	color: #2b2b2b;
+}
+h4{
+	margin: 0 0 15px;
+	font-size: 10pt;
+	color: #2b2b2b;
+}
+h5{
+	margin: 5px 16px 15px;
+        padding: 3px;
+	font-size: 9pt;
+	color: #2b2b2b;
+}
+p{
+	/* margin: 3px 1.5em; */
+	/* margin: 5px 5px; */
+    padding: 0;
+}
+em{
+	margin: 0px;
+	padding: 0px;
+	font-style: normal;
+	color: #ff0000;
+}
+img{
+	border: 0px;
+}
+dl ul{
+	margin-left: 20px/* 4em */;
+	list-style-position: outside;
+}
+a:link{
+	color: #aaa;
+	text-decoration: none;
+}
+a:visited{
+	color: #aaa;
+	text-decoration: none;
+}
+a:hover{
+	color: #666;
+	text-decoration: none;
+}
+input.add_btn{
+	width: 100px;
+	height: 30px;
+	background: -moz-linear-gradient(top, #fff, #F1F1F1 1%, #F1F1F1 50%, #DFDFDF 99%, #ccc);  
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #F1F1F1), color-stop(0.5, #F1F1F1), color-stop(0.99, #DFDFDF), to(#ccc));
+}
+input.add_btn:hover{
+	width: 100px;
+	height: 30px;
+	background: -moz-linear-gradient(top, #fff, #e1e1e1 1%, #e1e1e1 50%, #cfcfcf 99%, #ccc);  
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #e1e1e1), color-stop(0.5, #e1e1e1), color-stop(0.99, #cfcfcf), to(#ccc));  
+}
+/* float解除 */
+p.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+#content-project #pj-column-box #pj-column-left h2, h3, h4, h5, h6, h7{
+	color: #444;
+	margin: 10px 0;
+	padding: 0;
+	text-align: left;
+}

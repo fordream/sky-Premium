@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+     >
+    <org.com.atmarkcafe.view.HeaderECView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderECView>
+    <LinearLayout
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        	<LinearLayout
+        	    android:id="@+id/content_main"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:gravity="center|center_vertical"
+        	    android:orientation="vertical" >
+					<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/mya_history_des"
+					    custom:txtEng="@string/mya_history_des"
+					    custom:txtJa="@string/mya_history_des_j"
+					    android:textSize="@dimen/dimen_12dp"
+					    android:textColor="#555555"
+					    android:padding="@dimen/dimen_15dp"/>
+			</LinearLayout>
+			<ListView 
+			    android:id="@+id/list_content"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:divider="@null"
+		        android:dividerHeight="0dp">
+			    
+			</ListView>
+			<!-- <ListView
+		        android:id="@+id/listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:divider="@null"
+		        android:dividerHeight="0dp">
+	    	</ListView>    -->
+     </LinearLayout>    	
+      
+	<com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </com.acv.cheerz.base.view.LoadingView>
+</RelativeLayout>

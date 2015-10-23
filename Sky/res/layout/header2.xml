@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/org.com.atmarkcafe.sky"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50dp"
+        android:background="#2e8fc1" >
+
+		<LinearLayout
+		    android:id="@+id/header_title_main"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_centerVertical="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_toRightOf="@+id/header_btn_left"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+		     <!-- android:layout_centerHorizontal="true" -->
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/header_title"
+            android:layout_width="@dimen/dimen_180dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_16dp"
+            android:layout_marginLeft="@dimen/dimen_1dp"
+            android:layout_marginRight="@dimen/dimen_1dp"
+            android:maxWidth="@dimen/dimen_180dp"
+            android:textStyle="bold"
+            />
+		</LinearLayout>
+        <ImageButton
+            android:id="@+id/header_btn_left"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:background="@drawable/header_click"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_icon" />
+
+		<RelativeLayout
+		    android:id="@+id/icon_right"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@+id/header_title_main">
+
+				<LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="@dimen/dimen_50dp"
+				    android:layout_alignParentRight="true"
+				    android:gravity="center"
+				    android:orientation="horizontal" >
+
+				    	<ImageButton
+				            android:id="@+id/header_btn_right_left"
+				            android:layout_width="@dimen/dimen_40dp"
+				            android:layout_height="@dimen/dimen_40dp"
+				            android:background="@drawable/header_click"
+				            android:padding="@dimen/dimen_10dp"
+				            android:scaleType="centerCrop"
+				            android:src="@drawable/ic_mycart"
+				            android:visibility="visible"
+				             />
+				    	<ImageButton
+				            android:id="@+id/header_btn_right"
+				            android:layout_width="@dimen/dimen_40dp"
+				            android:layout_height="@dimen/dimen_40dp"
+				            android:background="@drawable/header_click"
+				            android:padding="@dimen/dimen_10dp"
+				            android:scaleType="centerCrop"
+				            android:src="@drawable/icon_search" 
+				            android:layout_marginLeft="@dimen/dimen_10dp"
+				            android:visibility="gone"/>
+				        
+				        
+				</LinearLayout>
+		    	
+		</RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

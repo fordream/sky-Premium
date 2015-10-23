@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_mycart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+
+    <ListView
+        android:id="@+id/listview_mycart_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:descendantFocusability="afterDescendants"
+        android:divider="@null"
+        android:dividerHeight="0dp" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="@dimen/dimen_320dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/ec_mycart_total_txt"
+            style="@style/sky_title_edit_text"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ec_mycart_total"
+            custom:txtEng="@string/ec_mycart_total"
+            custom:txtJa="@string/ec_mycart_total_j" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/ec_mycart_total"
+            style="@style/sky_edit_text"
+            android:layout_width="@dimen/dimen_320dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:background="#016ea4"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_320dp"
+            android:layout_height="@dimen/dimen_100dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/bt_continue"
+                android:layout_width="@dimen/dimen_140dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:background="@drawable/button_ec_continue_radius"
+                android:gravity="center"
+                android:text="@string/ec_mycart_bt_continue"
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_12dp"
+                custom:txtEng="@string/ec_mycart_bt_continue"
+                custom:txtJa="@string/ec_mycart_bt_continue_j" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/bt_checkout"
+                android:layout_width="@dimen/dimen_140dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:background="@drawable/button_ec_checkout_radius"
+                android:gravity="center"
+                android:text="@string/ec_mycart_bt_checkout"
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_12dp"
+                custom:txtEng="@string/ec_mycart_bt_checkout"
+                custom:txtJa="@string/ec_mycart_bt_checkout_j" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

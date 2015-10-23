@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header_blog_ec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_45dp"
+        android:background="#036898"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:paddingRight="@dimen/dimen_15dp" >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ec_blog_next" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img2"
+            android:layout_toRightOf="@+id/img1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:singleLine="true"
+            android:text="@string/login_remeber_password"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--
+             <org.com.atmarkcafe.view.ViewPagerContainer
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="200dip"
+                android:layout_height="250dip"
+                android:layout_gravity="center_vertical" 
+                
+                >
+            </android.support.v4.view.ViewPager>
+        </org.com.atmarkcafe.view.ViewPagerContainer>
+        -->
+
+        <org.com.atmarkcafe.view.HorizontalListView
+            android:id="@+id/horizontal_listview_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_220dp"
+            android:background="#FFFFFF"
+            custom:dividerWidth="@dimen/dimen_1dp" >
+        </org.com.atmarkcafe.view.HorizontalListView>
+
+        <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+        <HorizontalScrollView
+            android:id="@+id/horiztonal_scrollview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:id="@+id/horiztonal_outer_layout_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip" >
+                	<LinearLayout
+		                android:id="@+id/horiztonal_outer_layout_id1"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="#ffffff"
+		                android:gravity="center_vertical"
+		                android:orientation="horizontal"
+		                android:paddingBottom="5dip"
+		                android:paddingTop="5dip" >
+		            </LinearLayout>
+                	<LinearLayout
+		                android:id="@+id/horiztonal_outer_layout_id2"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="#ffffff"
+		                android:gravity="center_vertical"
+		                android:orientation="horizontal"
+		                android:paddingBottom="5dip"
+		                android:paddingTop="5dip" >
+		            </LinearLayout>
+            </LinearLayout>
+            
+        </HorizontalScrollView>
+		</LinearLayout>	
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimen_5dp" >
+
+            <ImageButton
+                android:id="@+id/img_slide_next_id"
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:background="@drawable/btn_slide_next"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/img_slide_back_id"
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:layout_marginRight="@dimen/dimen_15dp"
+                android:layout_toLeftOf="@+id/img_slide_next_id"
+                android:background="@drawable/btn_slide_back"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dimen_100dp"
+            android:layout_marginRight="@dimen/dimen_15dp"
+            android:gravity="center_vertical|right"
+            android:padding="@dimen/dimen_10dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

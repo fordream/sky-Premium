@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <LinearLayout 
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="wrap_content"
+        android:background="#ededed"
+        android:layout_margin="@dimen/dimen_10dp"
+        android:visibility="visible"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_alias"
+		            custom:txtEng="@string/mya_address_alias"
+		            custom:txtJa="@string/mya_address_alias_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_alias"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_name"
+		            custom:txtEng="@string/mya_address_name"
+		            custom:txtJa="@string/mya_address_name_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_name"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_company"
+		            custom:txtEng="@string/mya_address_company"
+		            custom:txtJa="@string/mya_address_company_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_company"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_address1"
+		            custom:txtEng="@string/mya_address_address1"
+		            custom:txtJa="@string/mya_address_address1_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_address1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_address2"
+		            custom:txtEng="@string/mya_address_address2"
+		            custom:txtJa="@string/mya_address_address2_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_address2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	   <!--  <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_code"
+		            custom:txtEng="@string/mya_address_code"
+		            custom:txtJa="@string/mya_address_code_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_code"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_city"
+		            custom:txtEng="@string/mya_address_city"
+		            custom:txtJa="@string/mya_address_city_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_city"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_prefectures"
+		            custom:txtEng="@string/mya_address_prefectures"
+		            custom:txtJa="@string/mya_address_prefectures_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_prefectures"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_country"
+		            custom:txtEng="@string/mya_address_country"
+		            custom:txtJa="@string/mya_address_country_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_country"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_tel"
+		            custom:txtEng="@string/mya_address_tel"
+		            custom:txtJa="@string/mya_address_tel_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_tel"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_mobilephone"
+		            custom:txtEng="@string/mya_address_mobilephone"
+		            custom:txtJa="@string/mya_address_mobilephone_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_mobilephone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    <!-- <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="1dp"
+	       android:background="#c3c3c3"
+	       android:layout_marginTop="@dimen/dimen_10dp"/> -->
+	    
+	    <LinearLayout 
+	        android:layout_width="@dimen/dimen_300dp"
+	        android:layout_height="wrap_content"
+	        android:background="#ededed"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:orientation="horizontal">
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/mya_address_more"
+		            custom:txtEng="@string/mya_address_more"
+		            custom:txtJa="@string/mya_address_more_j"
+		            style="@style/v2_sky_ec_address_lable"
+		            android:layout_marginLeft="@dimen/dimen_10dp"/>
+	        	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	        	    android:id="@+id/mya_address_more"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            style="@style/v2_sky_ec_address_value"/>
+	    </LinearLayout>
+	    
+        
+	    <!-- button -->
+	     <LinearLayout
+	         android:id="@+id/select_address"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/btn_checkout"
+	        android:orientation="horizontal"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginBottom="@dimen/dimen_10dp"><!-- button_ec_addressnew_radius -->
+	         <ImageView 
+	             android:layout_width="@dimen/dimen_16dp"
+	             android:layout_height="@dimen/dimen_16dp"
+	             android:layout_gravity="center_vertical"
+	             android:layout_marginLeft="@dimen/dimen_10dp"
+	             android:src="@drawable/ec_addbook_select"/>
+	         <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                 android:id="@+id/bt_add_new"
+                 android:layout_width="wrap_content"
+                 android:layout_height="@dimen/dimen_40dp"
+                 android:paddingLeft="@dimen/dimen_10dp"
+                 android:paddingRight="@dimen/dimen_10dp"
+                 android:gravity="center_vertical|left"
+                 android:text="@string/ec_address_book_select"
+                 android:textColor="#ffffff"
+                 android:textSize="@dimen/dimen_12dp"
+                 custom:txtEng="@string/ec_address_book_select"
+                 custom:txtJa="@string/ec_address_book_select_j"/>
+         </LinearLayout>
+	    
+    </LinearLayout>
+
+</RelativeLayout>

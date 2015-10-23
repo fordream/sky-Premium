@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF" xmlns:app="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium">
+
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header_faq_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+    <RelativeLayout 
+        android:id="@+id/faq_subtile_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:background="@color/menu_header"
+        android:layout_below="@+id/header_faq_id"
+        >
+        <TextView 
+            android:id="@+id/faq_subtile_content_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            />
+    </RelativeLayout>
+	<WebView 
+	    android:id="@+id/faq_webview_id"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/faq_subtile_id"
+	    android:layout_marginLeft="@dimen/dimen_5dp"
+	    android:layout_marginTop="@dimen/dimen_5dp"
+	    android:layout_marginRight="@dimen/dimen_5dp"
+		android:layout_marginBottom="@dimen/dimen_60dp"    
+	    />
+	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	    android:id="@+id/faq_btn_back_id"
+	    android:layout_width="@dimen/dimen_120dp"
+	    android:layout_height="@dimen/dimen_40dp"
+	    app:txtEng="@string/tlt_back"
+	    app:txtJa="@string/tlt_back_j"
+	    android:gravity="center"
+	    android:background="@drawable/button_ok_radius"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="@dimen/dimen_10dp"
+	    android:layout_marginBottom="@dimen/dimen_10dp"
+	    android:textSize="@dimen/dimen_14dp"
+	    android:textColor="#FFFFFF"
+	    android:textStyle="bold"
+	    />	
+	<com.acv.cheerz.base.view.LoadingView 
+	    android:id="@+id/loading_id"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:visibility="invisible"
+	    ></com.acv.cheerz.base.view.LoadingView>
+</RelativeLayout>

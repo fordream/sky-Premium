@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" 
+    xmlns:app="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium">
+
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_id" 
+        android:clickable="false"
+        android:layout_marginLeft="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="vertical" >
+            <WebView
+                android:id="@+id/term_service_webview_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

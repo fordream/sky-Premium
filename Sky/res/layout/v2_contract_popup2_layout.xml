@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <!-- @drawable/background_retangle_boder -->
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_20dp"
+        />
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="#000000"
+        android:text="@string/contract_update_paymentmethod_value11"
+        custom:txtEng="@string/contract_update_paymentmethod_value11"
+        custom:txtJa="@string/contract_update_paymentmethod_value11_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="#000000"
+        android:text="@string/contract_update_paymentmethod_value12"
+        custom:txtEng="@string/contract_update_paymentmethod_value12"
+        custom:txtJa="@string/contract_update_paymentmethod_value12_j" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_20dp"
+        />
+
+</LinearLayout>

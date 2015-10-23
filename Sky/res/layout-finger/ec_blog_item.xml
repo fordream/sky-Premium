@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_190dp"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_135dp"
+        android:scaleType="fitCenter" 
+        android:layout_marginTop="@dimen/dimen_5dp"/>
+
+    <LinearLayout
+        android:id="@+id/main_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3" 
+        android:background="#ecebee"
+        >
+<!-- @drawable/blog_1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:paddingLeft="@dimen/dimen_15dp"
+            android:paddingRight="@dimen/dimen_5dp"
+            android:paddingTop="@dimen/dimen_5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="8" >
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/dimen_13dp"
+                    custom:txtFont="Bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#036898"
+                    android:textSize="@dimen/dimen_13dp"
+                    custom:txtFont="Bold"
+                    custom:txtStyle="u" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:singleLine="true"
+                    android:textColor="#036898"
+                    android:textSize="@dimen/dimen_13dp"
+                    custom:txtFont="Bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:visibility="invisible"
+            >
+
+            <!-- <View
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="match_parent" /> -->
+
+            <ImageButton
+                android:id="@+id/img_slide_back_id"
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:background="@drawable/btn_slide_back" 
+                android:layout_marginLeft="@dimen/dimen_25dp"/>
+
+            <!-- <View
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="match_parent" /> -->
+
+            <ImageButton
+                android:id="@+id/img_slide_next_id"
+                android:layout_width="@dimen/dimen_25dp"
+                android:layout_height="@dimen/dimen_25dp"
+                android:background="@drawable/btn_slide_next" 
+                android:layout_marginLeft="@dimen/dimen_15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+	<View
+        android:id="@+id/gotodetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_145dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tranfer">
+    </View>
+</RelativeLayout>

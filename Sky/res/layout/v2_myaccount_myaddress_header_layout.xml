@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    
+           	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:id="@+id/text_des1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/mya_address_des1"
+	            custom:txtEng="@string/mya_address_des1"
+	            custom:txtJa="@string/mya_address_des1_j"
+	            android:layout_marginLeft="@dimen/dimen_10dp"
+	            android:layout_marginRight="@dimen/dimen_10dp"
+	            android:textColor="#555555"
+	            android:textSize="@dimen/dimen_14dp"/>
+           	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:id="@+id/text_des2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/mya_address_des2"
+	            custom:txtEng="@string/mya_address_des2"
+	            custom:txtJa="@string/mya_address_des2_j"
+	            android:layout_marginTop="@dimen/dimen_5dp"
+	            android:layout_marginLeft="@dimen/dimen_10dp"
+	            android:layout_marginRight="@dimen/dimen_10dp"
+	            android:textColor="#000000"
+	            android:textSize="@dimen/dimen_14dp"
+	            android:textStyle="bold"/>
+           	<org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:id="@+id/text_des3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/mya_address_des3"
+	            custom:txtEng="@string/mya_address_des3"
+	            custom:txtJa="@string/mya_address_des3_j"
+	            android:layout_marginTop="@dimen/dimen_5dp"
+	            android:layout_marginLeft="@dimen/dimen_10dp"
+	            android:layout_marginRight="@dimen/dimen_10dp"
+	            android:textColor="#555555"
+	            android:textSize="@dimen/dimen_14dp"/>
+            	
+</LinearLayout>

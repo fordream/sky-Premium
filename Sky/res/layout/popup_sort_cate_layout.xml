@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_retangle_boder"
+    android:orientation="vertical" >
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/contact_title"
+        android:textSize="@dimen/dimen_18sp"
+        android:textStyle="bold"
+        custom:txtEng="@string/title_btn_category_sort"
+        custom:txtJa="@string/title_btn_category_sort_j" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" 
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/popup_title_id"
+        >
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/popup_sort_cate_1_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:background="@drawable/popu_btn_confirm"
+            android:gravity="center"
+            android:text="@string/contact_title"
+            custom:txtEng="@string/contact_type_about_spmc"
+            custom:txtJa="@string/contact_type_about_spmc_j" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/popup_sort_cate_2_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:visibility="invisible"
+            android:background="@drawable/popu_btn_confirm"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_type_about_annual_fee"
+            custom:txtEng="@string/contact_type_about_annual_fee"
+            custom:txtJa="@string/contact_type_about_annual_fee_j" />
+    </LinearLayout>
+	 <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/popup_sort_cate_11_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dimen_30dp"
+            android:layout_marginRight="@dimen/dimen_30dp"
+            android:layout_below="@+id/popup_title_id"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/popu_btn_confirm"
+            android:gravity="center"
+            android:text="@string/contact_title"
+            custom:txtEng="@string/contact_type_about_spmc"
+            custom:txtJa="@string/contact_type_about_spmc_j" 
+            android:visibility="gone"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_20dp"
+        android:layout_below="@+id/ll_main_id"
+         />
+
+</RelativeLayout>

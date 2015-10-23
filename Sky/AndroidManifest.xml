@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SkyPremiumLtd.SkyPremium"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <!-- parse push -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <!-- request camera for scan qrcode function -->
+    <!-- <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/> -->
+    <!-- permission for badge -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+   
+	 <!--for htc-->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+
+    <!--for sony-->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+
+    <!--for apex-->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+
+    <!--for solid-->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    
+    <permission
+        android:name="com.SkyPremiumLtd.SkyPremium.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.SkyPremiumLtd.SkyPremium.permission.C2D_MESSAGE" />
+	
+    <application
+        android:name="org.com.atmarkcafe.sky.SkypeApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_launcher"
+        android:windowSoftInputMode="stateHidden|adjustPan"
+         >
+        <activity
+            android:name="org.com.atmarkcafe.sky.SplashActivity"
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:icon="@drawable/ic_launcher"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+				<data android:scheme="skypremium" />
+            </intent-filter>
+        </activity>
+       
+        <provider
+            android:name="com.acv.cheerz.db.DBProvider"
+            android:authorities="org.com.atmarkcafe.sky.DBProvider" >
+        </provider>
+
+        <!-- service parse -->
+        <service android:name="com.parse.PushService"/> <!-- android:enabled="true" -->
+		 <service android:name="org.com.atmarkcafe.sky.BadgeService"></service>
+        <!--
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        -->
+        <receiver android:name="org.com.atmarkcafe.sky.ParseBroadcastReceiverCustom" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.com.atmarkcafe.sky.GcmBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+                <category android:name="com.SkyPremiumLtd.SkyPremium" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="org.com.atmarkcafe.sky.RootActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" 
+            >
+            <intent-filter>
+                <action android:name="com.unitedcoders.android.broadcasttest.SHOWTOAST" >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.com.atmarkcafe.sky.MyCartActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!--
+        <activity
+            android:name="ECDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        -->
+
+
+        <!--
+        <activity
+            android:name="TestActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        -->
+        <!--
+         android:configChanges="keyboard|keyboardHidden"
+         android:windowSoftInputMode="adjustPan|adjustResize"
+        -->
+        <activity
+            android:name="org.com.atmarkcafe.sky.SkyMainActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/ExampleTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="org.com.atmarkcafe.sky.ShowPopUpPush"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="org.com.atmarkcafe.service.VideoActivity"
+            android:windowSoftInputMode="adjustResize" 
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        
+       <!--  <activity android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+                  android:screenOrientation="landscape"
+                  android:label="@string/app_name" />	 -->
+         <!-- Add the following meta-data for devices running Google Play service. -->
+	    <meta-data
+	      android:name="com.google.android.gms.version"
+	      android:value="@integer/google_play_services_version" />
+	
+	    <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background
+	         dispatching on non-Google Play devices -->
+	    <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+	              android:enabled="true">
+	      <intent-filter>
+	        <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+	      </intent-filter>
+	    </receiver>
+	    <service android:name="com.google.android.gms.analytics.AnalyticsService"
+             android:enabled="true"
+             android:exported="false"/>
+
+      	<service android:name="org.com.notifiservice.notifiServiceMail" ></service>
+      	<service android:name="org.com.notifiservice.notifiServiceNew" ></service>
+    </application>
+
+</manifest>

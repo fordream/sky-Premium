@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen_10dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_shape_background"
+     >
+    <EditText 
+        android:id="@+id/edt_reply_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter here"
+        android:textColor="#474747"
+        android:textSize="@dimen/dimen_15dp"
+        android:padding="@dimen/dimen_10dp"
+        android:background="#00000000"
+        />
+
+</LinearLayout>

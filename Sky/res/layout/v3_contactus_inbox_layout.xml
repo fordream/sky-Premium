@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/parrent_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/main_list_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_above="@+id/main_bottom">
+
+        <org.com.atmarkcafe.view.HeaderView
+            android:id="@+id/contact_header_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderView>
+
+        <ScrollView
+            android:id="@+id/main_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="insideInset"
+            android:stackFromBottom="true"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+             >
+
+            <LinearLayout
+                android:id="@+id/contact_content_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/contact_catalog_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_35dp"
+                    android:background="#dfdfdf" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/contact_header_catalog_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:textStyle="bold"
+                        android:text="@string/contact_title"
+                        custom:txtEng="@string/contact_title"
+                        custom:txtJa="@string/contact_title_j" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_10dp" />
+
+                <LinearLayout
+                    android:id="@+id/contact_inbox_history_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/ll_1_id"
+                    android:background="#91edd2"
+                    android:orientation="vertical" >
+                </LinearLayout>
+                
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+    <ScrollView 
+        android:id="@+id/main_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_0dp"
+        android:background="#ffffff">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            	 <LinearLayout
+			        android:id="@+id/ll_reply_id"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/dimen_10dp"
+			        android:layout_marginRight="@dimen/dimen_10dp"
+			        android:background="@drawable/border_shape_background"
+			        layout="@layout/reply_layout"
+			        android:orientation="vertical" 
+			        android:visibility="gone">
+				<EditText 
+				    android:layout_marginTop="@dimen/dimen_10dp"
+				    android:id="@+id/txt_history_id"
+				    android:layout_width="match_parent"
+				    android:layout_height="@dimen/dimen_35dp"
+				    android:layout_marginLeft="@dimen/dimen_5dp"
+				    android:textColor="#111111"
+				    android:textSize="@dimen/dimen_17dp"
+				    android:background="#00000000"
+				    android:singleLine="true"/>
+				<View 
+				    android:layout_width="match_parent"
+				    android:layout_height="0.5dp"
+				    android:background="#111111"
+				    android:layout_marginLeft="@dimen/dimen_10dp"
+				    android:layout_marginRight="@dimen/dimen_10dp"
+				    />
+		        <org.com.atmarkcafe.sky.customviews.charting.MEditText
+		            android:id="@+id/edt_reply_id"
+		            android:layout_width="match_parent"
+		            android:layout_height="@dimen/dimen_100dp"
+		            android:background="#00000000"
+		            android:hint="@string/msg_enter_content"
+		            custom:txtHintEng="@string/msg_enter_content"
+		            custom:txtHintJa="@string/msg_enter_content_j"
+		            android:padding="@dimen/dimen_10dp"
+		            android:textColor="#474747"
+		            android:gravity="left"
+		            android:textSize="@dimen/dimen_15dp" 
+		            android:focusable="true"/>
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/contactus_bottom_layout_id"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/dimen_50dp"
+		        android:orientation="horizontal"
+		        android:weightSum="2" >
+		
+		        <LinearLayout
+		            android:id="@+id/contactus_btn_create_id"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:layout_gravity="center"
+		            android:layout_margin="@dimen/dimen_5dp"
+		            android:layout_weight="1"
+		            android:background="@drawable/btn_continue"
+		            android:orientation="vertical" ><!-- border_retangle_red -->
+		
+		            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		                android:id="@+id/contactus_txt_create_id"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:gravity="center"
+		                android:text="@string/contact_us_create"
+		                android:textColor="@color/color_while"
+		                android:textSize="@dimen/dimen_15dp"
+		                custom:txtEng="@string/contact_us_create"
+		                custom:txtJa="@string/contact_us_create_j" />
+		        </LinearLayout>
+		
+		        <LinearLayout
+		            android:id="@+id/contactus_btn_reply_id"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:layout_margin="@dimen/dimen_5dp"
+		            android:layout_weight="1"
+		            android:background="@drawable/btn_checkout"
+		            android:gravity="center"
+		            android:orientation="vertical" ><!-- border_retangle_green -->
+		
+		            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		                android:id="@+id/contactus_txt_reply_id"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:gravity="center"
+		                android:text="@string/contact_us_reply"
+		                android:textColor="@color/color_while"
+		                android:textSize="@dimen/dimen_15dp"
+		                custom:txtEng="@string/contact_us_reply"
+		                custom:txtJa="@string/contact_us_reply_j" />
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+        </LinearLayout>
+    </ScrollView>
+   </LinearLayout>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

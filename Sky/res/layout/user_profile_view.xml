@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+	<ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:scrollbars="none"
+        android:visibility="invisible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/form_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_full_name_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_fullname"
+	                 custom:txtEng="@string/profile_fullname"
+            		 custom:txtJa="@string/profile_fullname_j"
+            		 android:layout_alignParentLeft="true"/>
+
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_full_name_v"
+	                 style="@style/sky_profile_view"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_id_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_id"
+	                 custom:txtEng="@string/profile_id"
+            		 custom:txtJa="@string/profile_id_j"
+            		 android:layout_alignParentLeft="true"/>
+
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_id_v"
+	                 style="@style/sky_profile_view"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_first_name_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_first_name"
+	                 custom:txtEng="@string/profile_first_name"
+            		 custom:txtJa="@string/profile_first_name_j"
+            		 android:layout_alignParentLeft="true"/>
+
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_first_name_v"
+	                 style="@style/sky_profile_view"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+             
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_middle_name_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_middle_name"
+	                 custom:txtEng="@string/profile_middle_name"
+            		 custom:txtJa="@string/profile_middle_name_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_middle_name_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_last_name_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_last_name"
+	                 custom:txtEng="@string/profile_last_name"
+            		 custom:txtJa="@string/profile_last_name_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_last_name_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+            
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_email_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_email"
+	                 custom:txtEng="@string/profile_email"
+            		 custom:txtJa="@string/profile_email_j"
+            		 android:layout_alignParentLeft="true"/>
+
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_email_v"
+	                 style="@style/sky_profile_view"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_alignParentRight="true"
+	                 android:layout_marginLeft="@dimen/dimen_10dp"
+	                 android:gravity="right"
+	                 android:layout_toRightOf="@+id/profile_email_t"
+	                 android:text="" />
+
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_mobile_mail_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_mobile_mail"
+	                 custom:txtEng="@string/profile_mobile_mail"
+            		 custom:txtJa="@string/profile_mobile_mail_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_mobile_mail_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/dimen_10dp"
+	                android:gravity="right"
+	                android:layout_toRightOf="@+id/profile_mobile_mail_t"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_tel_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_tel"
+	                 custom:txtEng="@string/profile_tel"
+            		 custom:txtJa="@string/profile_tel_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_tel_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_date_of_birth_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_date_of_birth"
+	                 custom:txtEng="@string/profile_date_of_birth"
+            		 custom:txtJa="@string/profile_date_of_birth_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_date_of_birth_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_sex_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_sex"
+	                 custom:txtEng="@string/profile_sex"
+            		 custom:txtJa="@string/profile_sex_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_sex_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_country_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_country"
+	                 custom:txtEng="@string/profile_country"
+            		 custom:txtJa="@string/profile_country_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_country_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_city_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_city"
+	                 custom:txtEng="@string/profile_city"
+            		 custom:txtJa="@string/profile_city_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_city_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_postal_code_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_postal_code"
+	                 custom:txtEng="@string/profile_postal_code"
+            		 custom:txtJa="@string/profile_postal_code_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_postal_code_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_address_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_address"
+	                 custom:txtEng="@string/profile_address"
+            		 custom:txtJa="@string/profile_address_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <TextView
+			        android:id="@+id/profile_address_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:gravity="right"
+	                android:layout_toRightOf="@+id/profile_address_t"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_address_kana_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_address_kana"
+	                 custom:txtEng="@string/profile_address_kana"
+            		 custom:txtJa="@string/profile_address_kana_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_address_kana_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:gravity="right"
+	                android:layout_toRightOf="@+id/profile_address_kana_t"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<!-- <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_recommended_by"
+	                 custom:txtEng="@string/profile_recommended_by"
+            		 custom:txtJa="@string/profile_recommended_by_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_recommended_by_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout> -->
+			
+			<RelativeLayout
+			    android:id="@+id/profile_recommend_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_recommend"
+	                 custom:txtEng="@string/profile_recommend"
+            		 custom:txtJa="@string/profile_recommend_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_recommend_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			
+			<!-- <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_language_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="@dimen/dimen_150dp"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_language"
+	                 custom:txtEng="@string/profile_language"
+            		 custom:txtJa="@string/profile_language_j"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_language_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="@dimen/dimen_150dp"
+			        android:layout_height="wrap_content"/>
+            </LinearLayout> -->
+
+        </LinearLayout>   
+         
+        <LinearLayout
+            android:id="@+id/form_contract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" 
+            android:visibility="gone">
+        </LinearLayout>
+
+        
+       </LinearLayout>
+  	</ScrollView>      
+    
+	 <LinearLayout
+         android:id="@+id/form_purchase"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center|center_vertical"
+         android:orientation="vertical"
+         android:layout_below="@+id/header"
+         android:visibility="gone">
+     </LinearLayout>
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:visibility="gone">
+    </com.acv.cheerz.base.view.LoadingView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="@dimen/dimen_320dp"
+        android:layout_height="@dimen/dimen_65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#dfdcdc"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_320dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/action_profile"
+                android:layout_width="@dimen/dimen_158dp"
+                android:layout_height="@dimen/dimen_63dp"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:background="#dfdcdc"
+                android:gravity="center|center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_p_profile"
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:background="@drawable/icon_p_profile_1" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_p_profile"
+                    android:layout_width="@dimen/dimen_100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/profile"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginBottom="@dimen/dimen_10dp"
+                    custom:txtEng="@string/profile"
+                    custom:txtJa="@string/profile_j" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/action_contract"
+                android:layout_width="@dimen/dimen_158dp"
+                android:layout_height="@dimen/dimen_63dp"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:background="#ffffff"
+                android:gravity="center|center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_p_contract"
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:background="@drawable/icon_p_contract_2" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_p_contract"
+                    android:layout_width="@dimen/dimen_100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/profile_contract"
+                    android:textColor="@color/profile_view"
+                    android:textSize="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginBottom="@dimen/dimen_10dp"
+                    custom:txtEng="@string/profile_contract"
+                    custom:txtJa="@string/profile_contract_j" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/action_purchase"
+                android:layout_width="@dimen/dimen_108dp"
+                android:layout_height="@dimen/dimen_63dp"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:background="#ffffff"
+                android:gravity="center|center_vertical"
+                android:orientation="vertical" 
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/icon_p_puchase"
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:background="@drawable/icon_p_puchase_2" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_p_puchase"
+                    android:layout_width="@dimen/dimen_100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/profile_purchased"
+                    android:textColor="@color/profile_view"
+                    android:textSize="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginBottom="@dimen/dimen_10dp"
+                    custom:txtEng="@string/profile_purchased"
+                    custom:txtJa="@string/profile_purchased_j" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+  
+</RelativeLayout>

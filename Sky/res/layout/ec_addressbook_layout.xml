@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_address_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <org.com.atmarkcafe.view.HeaderECView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderECView>
+    <ListView 
+        android:id="@+id/listview_addbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/tranfer"
+        android:dividerHeight="0px"
+        android:listSelector="@drawable/tranfer"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer">
+        
+    </ListView>
+    <LinearLayout 
+	    android:id="@+id/footer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:layout_alignParentBottom="true">
+	    	<org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/mya_address_addnew"
+                android:layout_width="@dimen/dimen_145dp"
+                android:layout_height="@dimen/dimen_40dp"
+                android:background="@drawable/btn_checkout"
+                android:gravity="center"
+                android:text="@string/mya_address_addnew"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_12dp"
+                custom:txtEng="@string/mya_address_addnew"
+                custom:txtJa="@string/mya_address_addnew_j" 
+                android:layout_marginTop="@dimen/dimen_17dp"
+	    		android:layout_marginBottom="@dimen/dimen_17dp"
+	    		android:visibility="visible"
+	    	/>
+	</LinearLayout>
+	<com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.acv.cheerz.base.view.LoadingView>
+</RelativeLayout>

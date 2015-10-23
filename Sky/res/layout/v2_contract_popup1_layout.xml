@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_comfirm"
+    android:orientation="vertical" >
+    <!-- @drawable/background_retangle_boder -->
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="#000000"
+        android:text="@string/contract_grade_value2"
+        custom:txtEng="@string/contract_grade_value2"
+        custom:txtJa="@string/contract_grade_value2_j" />
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:textColor="#000000"
+        android:text="@string/contract_grade_value1"
+        custom:txtEng="@string/contract_grade_value1"
+        custom:txtJa="@string/contract_grade_value1_j" />
+</LinearLayout>

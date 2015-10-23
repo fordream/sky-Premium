@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+     <org.com.atmarkcafe.view.HeaderECView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderECView>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            
+             <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_credit_confirm_amount"
+	            custom:txtEng="@string/ec_credit_confirm_amount"
+	            custom:txtJa="@string/ec_credit_confirm_amount_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+             
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_credit_confirm_amount"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_creditnew_name"
+	            custom:txtEng="@string/ec_creditnew_name"
+	            custom:txtJa="@string/ec_creditnew_name_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_name"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_creditnew_cardnum"
+	            custom:txtEng="@string/ec_creditnew_cardnum"
+	            custom:txtJa="@string/ec_creditnew_cardnum_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_cardnum"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_creditnew_code"
+	            custom:txtEng="@string/ec_creditnew_code"
+	            custom:txtJa="@string/ec_creditnew_code_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_code"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_credit_confirm_expired"
+	            custom:txtEng="@string/ec_credit_confirm_expired"
+	            custom:txtJa="@string/ec_credit_confirm_expired_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_expired"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_creditnew_phone"
+	            custom:txtEng="@string/ec_creditnew_phone"
+	            custom:txtJa="@string/ec_creditnew_phone_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_phone"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		   
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ec_creditnew_email"
+	            custom:txtEng="@string/ec_creditnew_email"
+	            custom:txtJa="@string/ec_creditnew_email_j"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            style="@style/sky_ec_address_lable"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_creditnew_email"
+	            android:layout_width="@dimen/dimen_300dp"
+	            android:layout_height="@dimen/dimen_37dp"
+	            style="@style/sky_edit_text_confirm"/>
+		    
+		  
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/ec_credit_bt_save"
+	            android:layout_width="@dimen/dimen_145dp"
+                android:layout_height="@dimen/dimen_40dp"
+	            android:layout_marginTop="@dimen/dimen_10dp"
+	            android:layout_marginBottom="@dimen/dimen_10dp"
+	            android:gravity="center"
+	            android:text="@string/ec_credit_confirm_bt"
+	            custom:txtEng="@string/ec_credit_confirm_bt"
+	            custom:txtJa="@string/ec_credit_confirm_bt_j"
+	            android:background="@drawable/btn_checkout"
+	            android:textColor="#ffffff"
+	            android:textSize="@dimen/dimen_12dp"/>
+		    
+		    
+        </LinearLayout>
+    </ScrollView>
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:visibility="gone">
+    </com.acv.cheerz.base.view.LoadingView>  
+</RelativeLayout>

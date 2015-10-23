@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_dialog_comfirm"
+        android:gravity="center"
+        android:orientation="vertical" >
+		<LinearLayout
+		    android:id="@+id/dialog_select_title_main"
+	        android:layout_width="@dimen/dimen_280dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/dimen_10dp"
+	        android:layout_marginBottom="@dimen/dimen_10dp"
+	        android:gravity="center"
+	        android:orientation="horizontal" 
+	        android:visibility="gone">
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:id="@+id/dialog_select_title"
+	            android:layout_width="@dimen/dimen_280dp"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:text="title"
+	            android:textColor="#000000"
+	            android:textSize="@dimen/dimen_18dp" />
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_width="@dimen/dimen_220dp"
+	        android:layout_height="@dimen/dimen_50dp"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:id="@+id/dialog_select_option1"
+	            android:layout_width="@dimen/dimen_100dp"
+	            android:layout_height="@dimen/dimen_40dp"
+	            android:background="@drawable/dialog_button_no_radius"
+	            android:gravity="center|center_vertical"
+	            android:text="option1"
+	            android:textColor="#000000"
+	            android:textSize="@dimen/dimen_14dp" />
+	
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:id="@+id/dialog_select_option2"
+	            android:layout_width="@dimen/dimen_100dp"
+	            android:layout_height="@dimen/dimen_40dp"
+	            android:layout_marginLeft="@dimen/dimen_20dp"
+	            android:background="@drawable/dialog_button_ok_radius"
+	            android:gravity="center|center_vertical"
+	            android:text="option2"
+	            android:textColor="#ffffff"
+	            android:textSize="@dimen/dimen_14dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

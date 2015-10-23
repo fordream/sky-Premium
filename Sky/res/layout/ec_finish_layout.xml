@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <org.com.atmarkcafe.view.HeaderECView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderECView>
+   <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/ec_credit_confirm_amount"
+        style="@style/sky_edit_text_confirm"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_37dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:text="@string/ec_finish_status"
+        custom:txtEng="@string/ec_finish_status"
+        custom:txtJa="@string/ec_finish_status_j" 
+        android:gravity="center"
+        android:textColor="@color/ec_text_status"
+        android:textStyle="bold" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="@dimen/dimen_60dp"
+       android:layout_below="@+id/ec_credit_confirm_amount"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/dimen_20dp"
+       android:gravity="center_horizontal|center_vertical"
+       android:orientation="horizontal" >
+
+       <org.com.atmarkcafe.sky.customviews.charting.MTextView
+           android:id="@+id/bt_continue"
+           android:layout_width="@dimen/dimen_145dp"
+           android:layout_height="@dimen/dimen_40dp"
+           android:background="@drawable/btn_continue"
+           android:gravity="center"
+           android:text="@string/ec_mycart_bt_continue"
+           android:textColor="#ffffff"
+           android:textSize="@dimen/dimen_12dp"
+           custom:txtEng="@string/ec_mycart_bt_continue"
+           custom:txtJa="@string/ec_mycart_bt_continue_j" />
+   </LinearLayout>
+
+</RelativeLayout>

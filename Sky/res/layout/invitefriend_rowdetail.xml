@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowdetail"
+    android:layout_width="@dimen/dimen_300dp"
+    android:layout_height="@dimen/dimen_50dp"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:paddingTop="@dimen/dimen_10dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/btnRemove"
+        android:layout_width="@dimen/dimen_42dp"
+        android:layout_height="@dimen/dimen_42dp"
+        android:contentDescription="@string/title_btn_cancel"
+        android:layout_gravity="top"
+        android:src="@drawable/icon_invite_delete" 
+        android:padding="@dimen/dimen_5dp"
+        android:visibility="visible"/>
+    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+        android:id="@+id/editDescricao"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_42dp"
+		style="@style/sky_edit_text"
+		android:gravity="left|center_vertical"
+		android:inputType="text" />
+<!-- @dimen/dimen_260dp -->
+</LinearLayout>

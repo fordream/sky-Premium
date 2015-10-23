@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical" >
+            
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/contract_extend_confirm_admin"
+		        style="@style/sky_profile_view"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/contract_extend_confirm_admin"
+		        custom:txtEng="@string/contract_extend_confirm_admin"
+		        custom:txtJa="@string/contract_extend_confirm_admin_j"
+		        android:textSize="@dimen/dimen_15dp"
+		        android:layout_margin="@dimen/dimen_10dp"
+		        android:textColor="#1ab173"
+		        android:gravity="center"
+		        android:visibility="gone"/>
+			<RelativeLayout
+			    android:id="@+id/contract_bt_extend"
+			    android:layout_width="@dimen/dimen_300dp"
+			    android:layout_height="@dimen/dimen_40dp"
+			    android:layout_margin="@dimen/dimen_10dp"
+			    android:background="@drawable/btn_checkout"
+			    android:gravity="center_vertical|center_vertical"
+			    android:orientation="horizontal" 
+			    android:visibility="gone">
+
+			    <ImageView
+			        android:id="@+id/imageView1"
+			        android:layout_width="@dimen/dimen_16dp"
+			        android:layout_height="@dimen/dimen_16dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="@dimen/dimen_10dp"
+			        android:background="@drawable/contract_extend_icon" 
+			        android:layout_centerVertical="true"/>
+
+			    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        style="@style/sky_title_edit_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="@dimen/dimen_40dp"
+			        android:layout_centerHorizontal="true"
+			        android:layout_centerVertical="true"
+			        android:gravity="center_vertical|center_horizontal"
+			        android:text="@string/contract_bt_extend"
+			        custom:txtEng="@string/contract_bt_extend"
+			        custom:txtJa="@string/contract_bt_extend_j" 
+			        android:textColor="#ffffff"/>
+
+			</RelativeLayout>
+            
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_status"
+	                 custom:txtEng="@string/contract_status"
+            		 custom:txtJa="@string/contract_status_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_status_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+             
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_grade"
+	                 custom:txtEng="@string/contract_grade"
+            		 custom:txtJa="@string/contract_grade_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_grade_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<!-- <LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_payment_method"
+	                 custom:txtEng="@string/contract_payment_method"
+            		 custom:txtJa="@string/contract_payment_method_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_payment_method_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout> -->
+            
+			<!-- <LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_registered_date"
+	                 custom:txtEng="@string/contract_registered_date"
+            		 custom:txtJa="@string/contract_registered_date_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_registered_date_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_start_date"
+	                 custom:txtEng="@string/contract_start_date"
+            		 custom:txtJa="@string/contract_start_date_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_start_date_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_next_update_date"
+	                 custom:txtEng="@string/contract_next_update_date"
+            		 custom:txtJa="@string/contract_next_update_date_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_next_update_date_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/contract_update_time"
+	                 custom:txtEng="@string/contract_update_time"
+            		 custom:txtJa="@string/contract_update_time_j"
+            		 android:layout_alignParentLeft="true"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/contract_update_time_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<LinearLayout
+            	android:layout_width="@dimen/dimen_320dp"
+            	android:layout_height="@dimen/dimen_1dp"
+            	android:background="#aaaaaa">
+			</LinearLayout> -->
+			
+			<!-- <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/button_upgrade"
+                    android:layout_width="@dimen/dimen_120dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:background="@drawable/button_ok_radius"
+                    android:gravity="center"
+                    android:text="@string/tlt_submit"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_18dp"
+                    custom:txtEng="@string/tlt_submit"
+                    custom:txtJa="@string/tlt_submit_j" />
+	             
+            </LinearLayout> -->
+			
+			<!-- action_contract -->
+			
+			<!-- action_contract -->
+        </LinearLayout>   
+</LinearLayout>

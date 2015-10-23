@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_purchase_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+
+   	<ListView
+   	    android:id="@+id/listview_purchase_detail"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:layout_below="@+id/header"
+   	    android:divider="@null"
+   	    android:dividerHeight="0dp" >
+
+    </ListView> 	        
+	<com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.acv.cheerz.base.view.LoadingView>  
+</RelativeLayout>

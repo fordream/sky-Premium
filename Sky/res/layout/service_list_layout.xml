@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" 
+    xmlns:app="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium">
+
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+
+    <ScrollView
+        android:id="@+id/maindata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_id" 
+        android:clickable="false"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_6dp"
+            android:layout_marginRight="@dimen/dimen_6dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/servicelist_subtitle_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/servicelist_thumnail_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_200dp"
+                android:layout_marginTop="@dimen/dimen_7dp"
+                android:scaleType="fitCenter" />
+
+            <WebView
+                android:id="@+id/servicelist_webview_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:background="#F4F4F4"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:id="@+id/servicelist_ll_bottom_id"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:background="@drawable/service_upgrade_bg"><!-- border_shape -->
+
+               <TextView
+                    android:id="@+id/servicelist_msg_update_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_name"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingTop="@dimen/dimen_5dp"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:textColor="#777777"
+                     />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/servicelist_img_upgrate_id"
+                    android:layout_width="@dimen/dimen_280dp"
+	        		android:layout_height="@dimen/dimen_40dp"
+                    android:background="@drawable/selecttion_upgrade_radius" 
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginLeft="@dimen/dimen_20dp"
+                    android:layout_marginRight="@dimen/dimen_20dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="@string/ec_addtocart_btn_error"
+                    app:txtEng="@string/ec_addtocart_btn_error"
+                    app:txtJa="@string/ec_addtocart_btn_error_j"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dimen_20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

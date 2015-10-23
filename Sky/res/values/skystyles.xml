@@ -1,0 +1,200 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!--  parent="Theme.AppCompat.Light" -->
+    <style name="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+    </style>
+
+    <style name="sky_edit_text">
+        <item name="android:background">@drawable/editext_radius</item>
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+        <item name="android:paddingRight">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sky_edit_text2">
+        <item name="android:background">@drawable/editext_radius</item>
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sky_edit_text_confirm">
+        <item name="android:background">@drawable/editext_confirm_radius</item>
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+        <item name="android:paddingRight">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sky_edit_textare">
+        <item name="android:background">@drawable/editext_radius</item>
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+        <item name="android:paddingRight">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="sky_title_edit_text">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#070707</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="sky_title_invite">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="sky_profile_view">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/profile_view</item><!-- 8e8e93 -->
+        <item name="android:text"></item>
+    </style>
+    
+    <!-- ec_address -->
+    <style name="sky_ec_address_lable">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text"></item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="v2_sky_ec_address_lable_edit">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text"></item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="sky_ec_address_value">
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text"></item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="sky_update_contract">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:text"></item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="sky_profile_recomment">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#000000</item><!-- 8e8e93 -->
+        <item name="android:text"></item>
+    </style>
+    
+    <style name="sky_contract_not_tranf_yet_lable">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:text"></item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="sky_contract_not_tranf_yet_value">
+        <item name="android:background">@drawable/editext_confirm_radius</item>
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+        <item name="android:paddingRight">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="v2_sky_ec_address_lable">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:text"></item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="v2_sky_ec_address_value">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:text"></item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+    </style>
+    
+    <style name="v2_historydetail_address_value">
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:text"></item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="sky_edit_message_history">
+        <item name="android:background">@drawable/editext_radius</item>
+        <item name="android:textSize">@dimen/dimen_14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">@dimen/dimen_10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a1a1a1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+</resources>

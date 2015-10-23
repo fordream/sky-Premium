@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingLeft="@dimen/dimen_12dp"
+        android:paddingRight="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_12dp" 
+        android:background="@drawable/item_gallery_selector">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/dimen_55dp"
+            android:layout_height="@dimen/dimen_55dp"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:src="@drawable/xml_login_language_checked" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ico_indi_gray"
+                android:orientation="vertical" >
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/login_remeber_password"
+                    android:textColor="#3e3d3c"
+                    android:textSize="@dimen/dimen_13dp"
+                    custom:txtFont="Bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ico_indi_gray"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/dimen_20dp"
+                android:layout_height="@dimen/dimen_20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:src="@drawable/ico_indi_gray" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

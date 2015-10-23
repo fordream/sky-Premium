@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_40dp"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="@dimen/dimen_320dp"
+        android:layout_height="@dimen/dimen_40dp"
+        android:orientation="horizontal">
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	        android:layout_width="@dimen/dimen_138dp"
+	        android:layout_height="@dimen/dimen_40dp"
+	        android:gravity="center_vertical"
+	        android:textColor="#000000"
+	        android:text="@string/purchase_product"
+            custom:txtEng="@string/purchase_product"
+            custom:txtJa="@string/purchase_product_j"
+            android:layout_gravity="center_vertical"
+	        android:paddingLeft="@dimen/dimen_5dp"
+            android:background="#d6d6d6"
+            android:layout_marginLeft="@dimen/dimen_2dp"
+	        android:textSize="@dimen/dimen_14dp" />
+	    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	        android:layout_width="@dimen/dimen_88dp"
+	        android:layout_height="@dimen/dimen_40dp"
+	        android:gravity="center_vertical"
+	        android:textColor="#414141"
+	        android:text="@string/purchase_price"
+            custom:txtEng="@string/purchase_price"
+            custom:txtJa="@string/purchase_price_j"
+            android:layout_gravity="center_vertical"
+	        android:paddingLeft="@dimen/dimen_5dp"
+            android:background="#d6d6d6"
+            android:layout_marginLeft="@dimen/dimen_2dp"
+	        android:textSize="@dimen/dimen_14dp" />
+	    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	        android:layout_width="@dimen/dimen_88dp"
+	        android:layout_height="@dimen/dimen_40dp"
+	        android:gravity="center_vertical"
+	        android:textColor="#000000"
+	        android:text="@string/purchase_amount"
+            custom:txtEng="@string/purchase_amount"
+            custom:txtJa="@string/purchase_amount_j"
+            android:layout_gravity="center_vertical"
+	        android:paddingLeft="@dimen/dimen_5dp"
+            android:background="#d6d6d6"
+            android:layout_marginLeft="@dimen/dimen_2dp"
+	        android:textSize="@dimen/dimen_14dp" />
+
+	</LinearLayout>			        
+
+</RelativeLayout>

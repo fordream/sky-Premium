@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+	<ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbarSize="0dp"
+        android:layout_below="@+id/header"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:id="@+id/profile_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+             <!-- <org.com.atmarkcafe.sky.customviews.charting.MTextView
+		        android:id="@+id/textView1"
+		        android:layout_width="@dimen/dimen_320dp"
+		        android:layout_height="@dimen/dimen_30dp"
+		        android:background="#ffffff"
+		        android:gravity="center"
+		        android:textSize="@dimen/dimen_20dp"
+		        android:textColor="#00bda7"
+            	android:text="@string/change_password"
+            	custom:txtEng="@string/change_password"
+            	custom:txtJa="@string/change_password_j"/> -->
+		    
+		    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+		        android:id="@+id/passwd_old"
+		        android:layout_width="@dimen/dimen_300dp"
+		        android:layout_height="@dimen/dimen_30dp"
+		        android:layout_marginTop="@dimen/dimen_20dp"
+		        android:hint="@string/change_password_old"
+		        custom:txtHintEng="@string/change_password_old"
+            	custom:txtHintJa="@string/change_password_old_j"
+				style="@style/sky_edit_text"
+				android:inputType="textPassword"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+		        android:id="@+id/passwd_new"
+		        android:layout_width="@dimen/dimen_300dp"
+		        android:layout_height="@dimen/dimen_30dp" 
+		        android:layout_marginTop="@dimen/dimen_20dp"
+		        android:hint="@string/change_password_new"
+		        custom:txtHintEng="@string/change_password_new"
+            	custom:txtHintJa="@string/change_password_new_j"
+				style="@style/sky_edit_text"
+				android:inputType="textPassword"/>
+		    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+		        android:id="@+id/passwd_confirm"
+		        android:layout_width="@dimen/dimen_300dp"
+		        android:layout_height="@dimen/dimen_30dp"
+		        android:layout_marginTop="@dimen/dimen_20dp"
+		        android:hint="@string/change_password_confirm"
+		        custom:txtHintEng="@string/change_password_confirm"
+            	custom:txtHintJa="@string/change_password_confirm_j"
+				style="@style/sky_edit_text"
+				android:inputType="textPassword"/>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:gravity="center_horizontal"
+		        android:layout_marginTop="@dimen/dimen_20dp">
+		         <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/button_submit"
+			        android:layout_width="@dimen/dimen_120dp"
+			        android:layout_height="@dimen/dimen_40dp"
+			        android:text="@string/tlt_submit"
+			        custom:txtEng="@string/tlt_submit"
+            		custom:txtJa="@string/tlt_submit_j"
+			        android:background="@drawable/button_ok_radius"
+			        android:gravity="center"
+			        android:textSize="@dimen/dimen_18dp"
+			        android:textColor="#ffffff"/>
+		         <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/button_reset"
+			        android:layout_width="@dimen/dimen_120dp"
+			        android:layout_height="@dimen/dimen_40dp"
+			        android:text="@string/tlt_reset"
+			        custom:txtEng="@string/tlt_reset"
+            		custom:txtJa="@string/tlt_reset_j"
+			        android:background="@drawable/button_cancel_radius"
+			        android:gravity="center"
+			        android:textSize="@dimen/dimen_18dp"
+			        android:layout_marginLeft="@dimen/dimen_20dp"
+			        android:textColor="#ffffff"/>
+		    </LinearLayout>
+        </LinearLayout>    
+       
+  	</ScrollView>      
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.acv.cheerz.base.view.LoadingView>  
+
+</RelativeLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_v2_bg_new"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_45dp" 
+    android:id="@+id/rl_fotgotpassword_id"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_370dp" 
+        android:gravity="center_horizontal"
+        android:orientation="vertical" 
+        
+        >
+<!-- dimen_420dp -->
+        <ImageView
+            android:id="@+id/backgound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_v3_bg2" 
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:id="@+id/loginmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_88dp"
+                android:gravity="center"
+                android:orientation="vertical" 
+                android:paddingLeft="@dimen/dimen_15dp"
+                android:paddingRight="@dimen/dimen_15dp">
+				<!-- dimen_117dp -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_78dp"
+                    android:background="@drawable/login_form_bg_edit_2"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+					<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                        android:id="@+id/forgot_id_email"
+                        style="@style/editext_center_tranfer_login"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_39dp"
+                        android:layout_weight="9"
+                        android:hint="@string/forgot_id_email"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        custom:txtFont="Light"
+                        custom:txtHintEng="@string/forgot_id_email"
+                        custom:txtHintJa="@string/forgot_id_email_j" 
+                        android:text=""/>
+
+					<ImageView
+                            android:id="@+id/clear_forgot_id_email"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:src="@drawable/btn_clear"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <!-- <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#bebebe" />
+					<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                        android:id="@+id/forgot_id_name"
+                        style="@style/editext_center_tranfer_login"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_39dp"
+                        android:layout_weight="9"
+                        android:hint="@string/forgot_id_name"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        custom:txtFont="Light"
+                        custom:txtHintEng="@string/forgot_id_name"
+                        custom:txtHintJa="@string/forgot_id_name_j" 
+                        android:text=""/>
+
+                    <ImageView
+                            android:id="@+id/clear_forgot_id_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:src="@drawable/btn_clear"
+                            android:visibility="gone" />
+                    </LinearLayout> -->
+                    
+					<!-- <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#bebebe" />
+					<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                        android:id="@+id/forgot_id_mobile"
+                        style="@style/editext_center_tranfer_login"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_39dp"
+                        android:layout_weight="9"
+                        android:hint="@string/forgot_id_mobile"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        custom:txtFont="Light"
+                        custom:txtHintEng="@string/forgot_id_mobile"
+                        custom:txtHintJa="@string/forgot_id_mobile_j" 
+                        android:text=""/>
+
+                    <ImageView
+                            android:id="@+id/clear_forgot_id_mobile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:src="@drawable/btn_clear"
+                            android:visibility="gone" />
+                    </LinearLayout> -->
+                    
+					<View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#bebebe" />
+					<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                        android:id="@+id/v2_forgot_birth"
+                        style="@style/editext_center_tranfer_login"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_39dp"
+                        android:layout_weight="9"
+                        android:hint="@string/v2_forgot_birth"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        custom:txtFont="Light"
+                        custom:txtHintEng="@string/v2_forgot_birth"
+                        custom:txtHintJa="@string/v2_forgot_birth_j" 
+                        android:text=""
+                        android:editable="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/dimen_5dp"
+                android:paddingLeft="@dimen/dimen_20dp"
+                android:paddingRight="@dimen/dimen_0dp"
+                android:paddingTop="@dimen/dimen_5dp" >
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="@dimen/dimen_14dp"
+                    android:layout_height="@dimen/dimen_14dp"
+                    android:background="@drawable/xml_login_checked"
+                    android:button="@drawable/tranfer" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/checkbox_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_0dp"
+                    android:text="@string/login_remeber_password"
+                    android:textColor="#777777"
+                    android:textSize="@dimen/dimen_13dp"
+                    custom:txtEng="@string/login_remeber_password"
+                    custom:txtFont="Bold"
+                    custom:txtJa="@string/login_remeber_password_j" />
+            </LinearLayout> -->
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/btnforgotid"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_47dp"
+                android:background="@drawable/login_v2_btn"
+                android:text="@string/forgotpwd_btn"
+                custom:txtEng="@string/forgotpwd_btn"
+                custom:txtFont="Bold"
+                 android:textColor="@android:color/white"
+                custom:txtJa="@string/forgotpwd_btn_j"
+                custom:txtTouch="yes" 
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:layout_marginLeft="@dimen/dimen_15dp"
+                android:layout_marginRight="@dimen/dimen_15dp"
+                android:textSize="@dimen/dimen_12dp"/>
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/backtologin"
+                android:layout_width="@dimen/dimen_255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_17dp"
+                android:text="@string/forgotpwd_back_to_login"
+                custom:txtEng="@string/forgotpwd_back_to_login"
+                custom:txtJa="@string/forgotpwd_back_to_login_j"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="@dimen/dimen_12dp"/>
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:layout_width="@dimen/dimen_255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_17dp"
+                android:text="@string/forgot_id_desc1"
+                custom:txtEng="@string/forgot_id_desc1"
+                custom:txtJa="@string/forgot_id_desc1_j"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/dimen_12dp"/>
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/mail_support"
+                android:layout_width="@dimen/dimen_255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:text="@string/forgotpwd_lable2"
+                custom:txtEng="@string/forgotpwd_lable2"
+                custom:txtJa="@string/forgotpwd_lable2_j"
+                custom:txtStyle="u"
+                android:gravity="center_horizontal" 
+                android:textColor="#c2b59b"
+                android:textSize="@dimen/dimen_12dp"/>
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:layout_width="@dimen/dimen_255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:text="@string/forgot_id_desc2"
+                custom:txtEng="@string/forgot_id_desc2"
+                custom:txtJa="@string/forgot_id_desc2_j"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/dimen_12dp"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_22dp"
+            android:gravity="center"
+            android:orientation="vertical" 
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_10dp">
+
+            <ImageView
+                android:id="@+id/progressbar_text"
+               android:layout_width="@dimen/dimen_107dp"
+                android:layout_height="@dimen/dimen_20dp"
+                android:src="@drawable/login_v2_logo_text"
+                android:visibility="visible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/dimen_67dp"
+            android:layout_height="@dimen/dimen_67dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical" 
+            android:layout_marginBottom="@dimen/dimen_30dp">
+            <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:gravity="center"
+               android:orientation="horizontal" >
+                <ImageView
+                 android:layout_width="@dimen/dimen_55dp"
+                 android:layout_height="fill_parent"
+                 android:padding="@dimen/dimen_10dp"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/login_v2_logo"/>   
+            </RelativeLayout>    
+             
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

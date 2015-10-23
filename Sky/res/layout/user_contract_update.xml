@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:id="@+id/contract_main"
+    android:orientation="vertical" >
+    <org.com.atmarkcafe.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.com.atmarkcafe.view.HeaderView>
+	<ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:layout_below="@+id/header"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/form_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|center_vertical"
+	            android:layout_margin="@dimen/dimen_10dp"
+	            android:orientation="horizontal" >
+	            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                 android:id="@+id/profile_language_t"
+	                 style="@style/sky_title_edit_text"
+	                 android:layout_width="@dimen/dimen_150dp"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/profile_language"
+	                 custom:txtEng="@string/profile_language"
+            		 custom:txtJa="@string/profile_language_j"/>
+	             <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			        android:id="@+id/profile_language_v"
+			        style="@style/sky_profile_view"
+			        android:layout_width="@dimen/dimen_150dp"
+			        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>   
+         
+        <LinearLayout
+            android:id="@+id/form_contract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" 
+            android:visibility="gone">
+        </LinearLayout>
+
+        
+       </LinearLayout>
+  	</ScrollView>      
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.acv.cheerz.base.view.LoadingView>  
+</RelativeLayout>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:id="@+id/mailbox_mail_layout_id"
+     >
+
+    <LinearLayout
+        android:id="@+id/mailbox_layout_content_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <org.com.atmarkcafe.view.HeaderView
+            android:id="@+id/header_mailbox_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderView>
+
+        <LinearLayout
+            android:id="@+id/mailbox_ll_search_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40dp"
+                android:background="@color/mail_header" >
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/mailbox_search_header_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/mail_header"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_0dp"
+                    android:text="@string/msg_search"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_18dp"
+                    custom:txtEng="@string/msg_search"
+                    custom:txtJa="@string/msg_search_j" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="6" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@drawable/retangle_editext" >
+
+                        <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                            android:id="@+id/mail_box_edtsearch_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dimen_40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="0dp"
+                            style="@style/sky_edit_text"
+                            android:hint="@string/app_name"
+                            android:paddingLeft="10dp"
+                            android:singleLine="true"
+                            android:imeOptions="actionDone"
+                            custom:txtHintEng="@string/msg_subject"
+                            custom:txtHintJa="@string/msg_subject_j" 
+                            />
+
+                        <ImageView
+                            android:id="@+id/mailbox_clear_subject_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dimen_4dp"
+                            android:src="@drawable/btn_clear" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_40dp"
+                        android:layout_marginLeft="@dimen/dimen_10dp"
+                        android:layout_weight="4"
+                        android:background="@drawable/button_ok_radius" >
+
+                        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                            android:id="@+id/mailbox_search_done_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="@dimen/dimen_10dp"
+                            android:text="@string/msg_search"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/dimen_13sp"
+                            android:textStyle="bold"
+                            custom:txtEng="@string/msg_search"
+                            custom:txtJa="@string/msg_search_j" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ACACAC" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:text="@string/msg_search_by_date"
+                android:textColor="#111111"
+                android:textSize="@dimen/dimen_13dp"
+                android:textStyle="bold"
+                custom:txtEng="@string/msg_search_by_date"
+                custom:txtJa="@string/msg_search_by_date_j" />
+
+            <LinearLayout
+                android:id="@+id/mailbox_search_ll_date_from_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <RelativeLayout
+                    android:id="@+id/mailbox_rl_search_date_from_id"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:layout_marginRight="@dimen/dimen_5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/editext_radius" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/mailbox_search_date_from_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="#111111"
+                        android:textSize="@dimen/dimen_13dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mailbox_rl_search_date_to_id"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:layout_marginLeft="@dimen/dimen_5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/editext_radius" >
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/mailbox_search_date_to_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textSize="@dimen/dimen_13dp" />
+                </RelativeLayout>
+                
+
+                    <org.com.atmarkcafe.sky.customviews.charting.MButton
+                        android:id="@+id/mailbox_search_btnclear_date_id"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/dimen_13dp" 
+                        android:background="@drawable/button_ok_radius"
+                        android:text="@string/msg_clear"
+                        custom:txtEng="@string/msg_clear"
+                		custom:txtJa="@string/msg_clear_j"
+                		android:textColor="#FFFFFF"
+                		android:textStyle="bold"
+                        />
+              
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_10dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" 
+            android:visibility="visible"
+            >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/mailbox_search_emty_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/none"
+                android:textSize="@dimen/dimen_13dp"
+                android:visibility="invisible"
+                custom:txtHintEng="@string/none"
+                custom:txtHintJa="@string/none_j" />
+
+            <ListView
+                android:id="@+id/list_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                 >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+         >
+    </com.acv.cheerz.base.view.LoadingView>
+
+</RelativeLayout>

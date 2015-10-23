@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView 
+            android:id="@+id/text_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mya_credit_title"
+            custom:txtEng="@string/mya_credit_title"
+            custom:txtJa="@string/mya_credit_title_j"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:textColor="#555555"
+            android:textSize="@dimen/dimen_14dp"/>
+			
+</LinearLayout>

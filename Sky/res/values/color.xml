@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_header">#00bda7</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="popup_color_text">#C2b59C</color>
+    <color name="color_while">#ffffff</color>
+    <color name="color_gray">#efefef</color>
+    <color name="color_focus_lion">#b4d6e6</color>
+    <color name="color_contact_us">#c2b59c</color>
+    <color name="color_contact_us_new">#555555</color>
+    <color name="color_contact_us_title_list">#414141</color>
+    <color name="color_contact_us_title">#2e2e2e</color>
+    <color name="color_popup_text_select">#555555</color>
+    <!-- old -->
+    <!-- <color name="loading_bg">#2e8fc1</color>
+    <color name="color_header_default">#2e8fc1</color>
+    <color name="menu_left">#016ea4</color>
+    <color name="menu_header">#0b78ae</color>
+    <color name="menu_line">#0b75a9</color>
+    <color name="menu_footer">#0388ca</color>
+    <color name="edittext_radius">#016ea4</color>
+    <color name="servicelist_first">#b4d6e6</color>
+    <color name="ec_selection_header_cat">#036898</color>
+    <color name="ec_selection_price_text">#036898</color>
+    <color name="ec_selection_status_text_in">#036898</color>
+    <color name="ec_selection_status_text_out">#ee0000</color>
+    <color name="mail_header">#0b78ae</color>
+    <color name="button_ok_radius">#016ea4</color>
+    <color name="profile_view">#1983ba</color> 
+    <color name="profile_view">#1983ba</color> -->
+    
+    <!-- new 1-->
+    <!-- <color name="loading_bg">#c2b59b</color>
+    <color name="color_header_default">#c2b59b</color>
+    <color name="menu_left">#ab9a79</color>
+    <color name="menu_header">#c2b59b</color>
+    <color name="menu_line">#bdb094</color>
+    <color name="menu_footer">#c2b59b</color>
+    <color name="edittext_radius">#ab9a79</color>
+    <color name="servicelist_first">#fef3dc</color>
+    <color name="ec_selection_header_cat">#ab9a79</color>
+    <color name="ec_selection_price_text">#868c25</color>
+    <color name="ec_selection_status_text_in">#036898</color>
+    <color name="ec_selection_status_text_out">#ee0000</color>
+    <color name="mail_header">#ab9a79</color>
+    <color name="button_ok_radius">#ab9a79</color> 
+    <color name="profile_view">#bf2a23</color> -->
+    
+    <!-- new 2 -->
+    <color name="loading_bg">#a4a099</color><!-- ok -->
+    <color name="color_header_default">#a4a099</color><!-- ok -->
+    <color name="menu_left">#ffffff</color><!-- ok -->
+    <color name="menu_header">#2a2a2a</color><!-- ok -->
+    <color name="menu_line">#c0b39a</color><!-- ok -->
+    <color name="menu_footer">#2a2a2a</color><!-- ok -->
+    
+    <color name="menu_text_header">#a4a099</color><!-- ok -->
+    <color name="menu_text_sub">#a4a099</color><!-- ok -->
+    <color name="icon_color_new">#a4a099</color><!-- ok -->
+    <color name="home_icon_select">#2a2a2a</color><!-- ok -->
+    <color name="home_icon_unselect">#c2c2c2</color><!-- ok -->
+    <color name="ec_btn_checkout">#c2b59c</color><!-- ok -->
+    <color name="ec_blog_next">#a4a099</color><!-- ok -->
+    <color name="ec_bg_search">#a4a099</color><!-- ok -->
+    <color name="ec_btn_search">#c2b59c</color><!-- ok -->
+    <color name="ec_pj_detail_name">#2a2a2a</color><!-- #1684b9 -->
+    <color name="ec_btn_addtocard">#c2b59c</color>
+    <color name="ec_btn_continue">#625a4b</color>
+    <color name="ec_addtocard_des">#2a2a2a</color><!-- #1684b9 -->
+    <color name="ec_addtocard_title_total">#c2b59c</color><!-- #1684b9 -->
+    <color name="ec_addtocard_dot">#625a4b</color>
+    <color name="ec_mycart_bg_total">#2a2a2a</color><!-- #016ea4 -->
+    <color name="ec_mycart_text">#2a2a2a</color>
+    <color name="ec_icon_dot_addcart">#2a2a2a</color>
+    <color name="ec_link_tearm_content">#c2b59c</color><!-- #1684b9 -->
+    <color name="ec_mya_purchase_status">#2a2a2a</color><!-- #2e8fc1 -->
+    <color name="select_option_on_radius">#c2b59c</color>
+    <color name="select_option_off_radius">#72706b</color>
+    <color name="ec_text_status">#2a2a2a</color><!-- #1ab173 -->
+    
+    <color name="new_detail_header">#dfdfdf</color>
+    
+    <color name="membership_text_user">#c2b59c</color><!-- #1684b9 -->
+    
+    <color name="edittext_radius">#c2b59c</color>
+    <color name="servicelist_first">#ccccc8</color><!-- ok -->
+    <color name="gallery_select_item">#cccdc8</color>
+    <color name="ec_selection_header_cat">#2a2a2a</color><!-- ok -->
+    <color name="ec_selection_price_text">#2a2a2a</color><!-- ok -->
+    <color name="ec_selection_status_text_in">#c2b59c</color><!-- ok -->
+    <color name="ec_selection_status_text_out">#c2b59c</color><!-- ok -->
+    <color name="mail_header">#77746f</color><!-- ok -->
+    <color name="button_ok_radius">#ab9a79</color> 
+    <color name="profile_view">#c2b59c</color><!-- ok -->
+     <color name="qs_answer_color">#fd7b7b</color>
+     
+    <color name="contact_icon">#c2b59c</color> 
+    <color name="contact_text">#c2b59c</color> 
+    
+    <color name="selection_upgrade_now">#c2b59c</color>
+    <color name="selection_upgrade_now_select">#625a4b</color>
+    <color name="dialog_btn_ok">#c2b59c</color>  <!-- #f55e4e -->
+    <color name="favorite_btn">#c2b59c</color>
+    <color name="favorite_text">#2a2a2a</color><!-- #2e8fc1 -->
+    
+    <color name="popup_btn_ok">#c2b59c</color>
+    
+</resources>

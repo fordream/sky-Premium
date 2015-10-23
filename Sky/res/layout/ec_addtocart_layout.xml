@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    xmlns:flipview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+    android:id="@+id/main_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <org.com.atmarkcafe.view.HeaderECView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderECView>
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/tranfer"
+            android:dividerHeight="0px"
+            android:listSelector="@drawable/tranfer"
+            android:scrollbarThumbVertical="@drawable/tranfer"
+            android:scrollbarTrackHorizontal="@drawable/tranfer"
+            android:scrollbars="none" >
+			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                
+			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:background="#ededed"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/dimen_15dp" >
+
+				<org.com.atmarkcafe.sky.customviews.charting.MTextView
+				    android:layout_width="@dimen/dimen_250dp"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:text="@string/ec_mycart_add_status"
+				    android:textColor="@color/ec_text_status"
+				    android:textSize="@dimen/dimen_15dp"
+				    custom:txtEng="@string/ec_mycart_add_status"
+				    custom:txtJa="@string/ec_mycart_add_status_j" />
+
+            </LinearLayout>   
+             
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="#ededed"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_10dp" >
+
+				 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" 
+                    android:layout_marginBottom="@dimen/dimen_10dp">
+                     <ImageView
+	                    android:layout_marginTop="@dimen/dimen_5dp"
+	                    android:id="@+id/flip"
+	                    android:layout_width="@dimen/dimen_100dp"
+	                    android:layout_height="@dimen/dimen_100dp"
+	                    android:scaleType="fitCenter"
+	                    
+	                     />
+                     <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	                    android:id="@+id/text_1"
+	                    android:layout_width="@dimen/dimen_170dp"
+	                    android:layout_height="wrap_content"
+	                    android:lineSpacingExtra="@dimen/dimen_3dp"
+	                    android:textColor="@color/ec_addtocard_des"
+	                    android:textSize="@dimen/dimen_15dp"
+	                    android:layout_marginLeft="@dimen/dimen_10dp"
+	                    android:layout_marginBottom="@dimen/dimen_10dp"
+	                    android:layout_gravity="center"
+	                    custom:txtFont="Bold" />
+                </LinearLayout>    
+               
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#cecece" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_10dp" >
+						<org.com.atmarkcafe.sky.customviews.charting.MTextView
+						    	android:id="@+id/textview"
+                                android:layout_width="@dimen/dimen_100dp"
+                                android:layout_height="@dimen/dimen_31dp"
+                                android:gravity="left"
+                                android:text="@string/purchase_price"
+                                android:textColor="#555555"
+                                android:textSize="@dimen/dimen_15dp"
+                                custom:txtEng="@string/purchase_price"
+                                android:textStyle="bold"
+                                custom:txtJa="@string/purchase_price_j" />
+
+                            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                                android:layout_width="@dimen/dimen_80dp"
+                                android:layout_height="@dimen/dimen_31dp"
+                                android:gravity="center_horizontal"
+                                android:text="@string/ec_mycart_quantity"
+                                android:textColor="#555555"
+                                android:textSize="@dimen/dimen_15dp"
+                                custom:txtEng="@string/ec_mycart_quantity"
+                                android:textStyle="bold"
+                                custom:txtJa="@string/ec_mycart_quantity_j"
+                                android:layout_toRightOf="@+id/textview" 
+                                android:layout_marginLeft="@dimen/dimen_10dp"/>
+                        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                            android:id="@+id/text_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dimen_31dp"
+                            android:gravity="right"
+                            android:text="@string/ec_mycart_amount"
+                            android:textColor="#555555"
+                            android:textSize="@dimen/dimen_15dp"
+                            custom:txtEng="@string/ec_mycart_amount"
+                            android:textStyle="bold"
+                            custom:txtJa="@string/ec_mycart_amount_j" 
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_10dp" >
+
+<!-- android:background="@drawable/ec_product_detail_x3" -->
+						<org.com.atmarkcafe.sky.customviews.charting.MTextView
+                                android:layout_width="@dimen/dimen_100dp"
+                                android:layout_height="@dimen/dimen_31dp"
+                                android:gravity="left"
+                                android:id="@+id/text_2"
+                                android:textColor="#555555"
+                                android:textSize="@dimen/dimen_15dp"
+                                />
+						<org.com.atmarkcafe.sky.customviews.charting.MTextView
+                                    android:id="@+id/edt_1"
+                                    style="@style/editext_center_tranfer_login"
+                                    android:layout_width="@dimen/dimen_80dp"
+                                    android:layout_height="@dimen/dimen_31dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="1"
+                                    android:textColor="#555555"
+                                    android:textSize="@dimen/dimen_15dp"
+                                    android:layout_toRightOf="@+id/text_2"
+                                    android:layout_marginLeft="@dimen/dimen_10dp"/>
+                        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                            android:id="@+id/text_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dimen_31dp"
+                            android:gravity="right"
+                            android:textColor="#555555"
+                            android:textSize="@dimen/dimen_15dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!-- <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#cecece" /> -->
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:background="#ededed"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/dimen_15dp" >
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/ec_mycart_add_totalcart"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/ec_mycart_add_totalcart"
+                     android:textColor="@color/ec_addtocard_title_total"
+                     android:textSize="@dimen/dimen_15dp"
+                     custom:txtEng="@string/ec_mycart_add_totalcart"
+                     custom:txtFont="Bold"
+                     custom:txtJa="@string/ec_mycart_add_totalcart_j" />
+                <LinearLayout 
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/dimen_10dp"
+                   android:orientation="horizontal">
+                    <ImageView 
+                        android:layout_width="@dimen/dimen_5dp"
+                        android:layout_height="@dimen/dimen_5dp"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/icon_dot_addcart"/>
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|top"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_mycart_add_totaltax"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"
+                        custom:txtEng="@string/ec_mycart_add_totaltax"
+                        android:textStyle="bold"
+                        custom:txtJa="@string/ec_mycart_add_totaltax_j" />
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/ec_mycart_add_totaltax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_mycart_amount"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"/>
+                </LinearLayout>
+                <!-- <LinearLayout 
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/dimen_10dp"
+                   android:orientation="horizontal">
+                    <ImageView 
+                        android:layout_width="@dimen/dimen_5dp"
+                        android:layout_height="@dimen/dimen_5dp"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/icon_dot_addcart"/>
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_mycart_add_ship"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"
+                        custom:txtEng="@string/ec_mycart_add_ship"
+                        android:textStyle="bold"
+                        custom:txtJa="@string/ec_mycart_add_ship_j" />
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/ec_mycart_add_ship"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"/>
+                </LinearLayout> -->
+                <LinearLayout 
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/dimen_10dp"
+                   android:orientation="horizontal">
+                    <ImageView 
+                        android:layout_width="@dimen/dimen_5dp"
+                        android:layout_height="@dimen/dimen_5dp"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/icon_dot_addcart"/>
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_shipping"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"
+                        custom:txtEng="@string/ec_shipping"
+                        android:textStyle="bold"
+                        custom:txtJa="@string/ec_shipping_j" />
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/ec_mycart_add_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="0"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"/>
+                </LinearLayout>
+                <LinearLayout 
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/dimen_10dp"
+                   android:orientation="horizontal">
+                    <ImageView 
+                        android:layout_width="@dimen/dimen_5dp"
+                        android:layout_height="@dimen/dimen_5dp"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/icon_dot_addcart"/>
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_mycart_add_total"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"
+                        custom:txtEng="@string/ec_mycart_add_total"
+                        android:textStyle="bold"
+                        custom:txtJa="@string/ec_mycart_add_total_j" />
+                    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                        android:id="@+id/ec_mycart_add_total"
+                        android:layout_width="@dimen/dimen_120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="@string/ec_mycart_amount"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/dimen_12dp"/>
+                </LinearLayout>
+            </LinearLayout>   
+         	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp" >
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/bt_continue"
+                    android:layout_width="@dimen/dimen_145dp"
+	                android:layout_height="@dimen/dimen_40dp"
+	                android:background="@drawable/btn_continue"
+	                android:gravity="center"
+	                android:text="@string/ec_mycart_bt_continue"
+	                android:textColor="#ffffff"
+	                android:textSize="@dimen/dimen_12dp"
+	                custom:txtEng="@string/ec_mycart_bt_continue"
+	                custom:txtJa="@string/ec_mycart_bt_continue_j"/>
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/bt_checkout"
+                    android:layout_width="@dimen/dimen_145dp"
+	                android:layout_height="@dimen/dimen_40dp"
+	                android:layout_marginLeft="@dimen/dimen_10dp"
+	                android:background="@drawable/btn_checkout_new"
+	                android:gravity="center"
+	                android:text="@string/ec_mycart_bt_checkout"
+	                android:textColor="#ffffff"
+	                android:textSize="@dimen/dimen_12dp"
+	                custom:txtEng="@string/ec_mycart_bt_checkout"
+	                custom:txtJa="@string/ec_mycart_bt_checkout_j"/>
+            </LinearLayout>
+                
+         </LinearLayout>    
+        </ScrollView>
+    </LinearLayout>
+
+   <!--  <com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.acv.cheerz.base.view.LoadingView> -->
+
+</RelativeLayout>

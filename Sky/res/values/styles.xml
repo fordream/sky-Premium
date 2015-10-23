@@ -1,0 +1,106 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- parent="Theme.AppCompat.Light" -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Translucent.NoTitleBar"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ExampleTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="homeAsUpIndicator">@null</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="editext">
+        <item name="android:background">@drawable/xml_sky_editext</item>
+        <item name="android:textSize">@dimen/dimen_13dp</item>
+        <item name="android:paddingLeft">@dimen/dimen_10dp</item>
+        <item name="android:paddingRight">@dimen/dimen_10dp</item>
+        <item name="android:height">@dimen/dimen_35dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="editext_login_lang">
+        <item name="android:background">@drawable/tranfer</item>
+        <item name="android:textSize">@dimen/dimen_9dp</item>
+        <item name="android:paddingLeft">@dimen/dimen_0dp</item>
+        <item name="android:paddingRight">@dimen/dimen_0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="editext_login_lang_v2">
+        <item name="android:textSize">@dimen/dimen_12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="editext_center" parent="editext">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="editext_center_tranfer" parent="editext_center">
+        <item name="android:background">@drawable/tranfer</item>
+    </style>
+
+    <style name="editext_center_tranfer_login" parent="editext_center">
+        <item name="android:background">@drawable/tranfer</item>
+        <item name="android:height">@dimen/dimen_39dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#bebebe</item>
+        <item name="android:textColorHint">#bebebe</item>
+    </style>
+    
+    <style name="ec_editext_mycart">
+        <item name="android:background">@drawable/tranfer</item>
+        <item name="android:height">@dimen/dimen_39dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#bebebe</item>
+        <item name="android:textColorHint">#bebebe</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dimen_12dp</item>
+    </style>
+
+    <style name="button" parent="editext">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="star_text">
+        <item name="android:paddingLeft">@dimen/dimen_3dp</item>
+        <item name="android:paddingRight">@dimen/dimen_3dp</item>
+        <item name="android:textSize">@dimen/dimen_10dp</item>
+        <item name="android:text">※</item>
+        <item name="android:textColor">#ff3333</item>
+    </style>
+     <style name="v3_button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/dimen_13dp</item>
+        <item name="android:background">@drawable/button_normal</item><!-- v3_a_button_xml -->
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="v3_button_upgrade">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/dimen_13dp</item>
+        <item name="android:background">@drawable/v3_a_button_upgrade_xml</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="myaccount_history_title">
+        <item name="android:background">@drawable/tranfer</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+    </style>
+    <style name="myaccount_history_value">
+        <item name="android:background">@drawable/tranfer</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dimen_15dp</item>
+    </style>
+</resources>

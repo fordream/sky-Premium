@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/org.com.atmarkcafe.sky"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50dp"
+        android:background="@color/color_header_default" >
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:gravity="center"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    >
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/header_title"
+            android:layout_width="@dimen/dimen_260dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_14dp"
+            android:layout_marginLeft="@dimen/dimen_1dp"
+            android:layout_marginRight="@dimen/dimen_1dp"
+            android:maxWidth="@dimen/dimen_260dp"
+            android:textStyle="bold"
+            />
+		</LinearLayout>
+        <ImageButton
+            android:id="@+id/header_btn_left"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:background="@drawable/header_click"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_icon" />
+		
+        <ImageButton
+            android:id="@+id/header_btn_right"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/header_click"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_edit" />
+        
+        <ImageButton
+            android:id="@+id/header_btn_right_left"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/header_btn_right"
+            android:background="@drawable/header_click"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_edit"
+            android:visibility="invisible"
+             />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SKY PREMIUM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- English -->
+    <string name="account">ACCOUNT</string>
+    <string name="language">LANGUAGE</string>
+    <string name="sky"></string>
+    <!-- NORMAL  -->
+    <string name="tlt_submit">Submit</string>
+    <string name="tlt_reset">Reset</string>
+    <string name="tlt_send">Send</string>
+    <string name="tlt_yes_index">Yes</string>
+    <string name="tlt_no_index">No</string>
+    <string name="tlt_cancel">Cancel</string>
+    <string name="tlt_back">Back</string>
+    <string name="tlt_title">Title</string>
+    <string name="tlt_edit">Edit</string>
+    <string name="tlt_ok">Ok</string>
+    <string name="tlt_return">Return</string>
+	<string name="version_deploy">106.0</string>
+    <!-- MESSAGE  -->
+    <string name="msg_no">NO</string>
+    <string name="msg_yes">YES</string>
+    <string name="msg_logout_confirm">Are you sure?</string>
+    <string name="msg_password_change_success">Password change successful</string>
+    <string name="msg_return">Return</string>
+    <string name="msg_language">Language</string>
+    <string name="msg_member_id">Member ID </string>
+    <string name="msg_member_email">Email </string>
+    <string name="msg_content">Content</string>
+    <string name="msg_success">Successful!</string>
+    <string name="msg_failure">Please check network then reconnect!</string>
+    <string name="msg_subject">Subject</string>
+    <string name="msg_search">Search</string>
+    <string name="msg_err_connect">Could not connect to the server</string>
+    <string name="msg_continue_shopping">Continue shopping</string>
+    <string name="msg_process_to_checkout">Process to checkout</string>
+    <string name="msg_success_add_to_cart">Product successfully added to your shopping cart</string>
+    <string name="msg_err_inactive_login">Please input active account.</string>
+    <string name="msg_err_inactive_login_j">アクティブアカウントを入力してください。</string>
+    <string name="msg_content_null">Content null</string>
+    <string name="msg_enter_title">Please enter title</string>
+    <string name="msg_enter_content">Please enter content</string>
+	<string name="msg_enter_type">Please select contact type</string>
+	<string name="msg_sign_in">SIGN IN</string>
+	<string name="msg_clear">Clear</string>
+	
+	<string name="msg_push_confirm">SKY PREMIUM Would Like to Send You Notifications</string><!-- "SKY PREMIUM" Would Like to Send You Notifications -->
+	<string name="msg_push_confirm_j">新着情報とメールのプッシュ通知を表示します。</string><!-- "SKY PREMIUM"はあなたにプッシュ通知を送信します。よろしいですか。 新着情報とメールのプッシュ通知を表示します。-->
+	<string name="msg_push_confirm_no">Don\'t Allow</string>
+	<string name="msg_push_confirm_no_j">拒否</string>
+	<string name="msg_push_confirm_yes">OK</string>
+	<string name="msg_push_confirm_yes_j">OK</string>
+	<string name="msg_result_search"> Search Result</string>
+	<string name="msg_result_search_not_found">Search no result found</string>
+	<string name="msg_result_search_not_found_j">検索結果が見つかりません</string>
+	
+    <!-- MENU LIST -->
+    <string name="menu_sky_premium">SKY PREMIUM</string>
+    <string name="menu_mailbox">Mail box</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_news">News</string>
+    <string name="menu_about_spmc">About SKY PREMIUM</string>
+    <string name="menu_invite_friend">Invite Friend</string>
+    <string name="menu_qr_code">QR Code</string>
+    <string name="menu_service_list">Home (Service List)</string>
+    <string name="spmc_selection">SPMC SELECTION</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_change_pass">Change password</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_lang_japanese">日本語</string>
+    <string name="menu_lang_english">English</string>
+    <string name="invite_lang_english">Mail English</string>
+    <string name="menu_language">LANGUAGE</string>
+    <string name="menu_account">ACCOUNT</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_version">Version </string>
+    <string name="menu_version_doc">2015 SKY PREMIUM INTERNATIONAL PTE. LTD.</string>
+    <!-- Term -->
+    <string name="menu_help">HELP</string>
+    <string name="menu_help_j">ヘルプ</string>
+	<string name="menu_trade_law">Trade Law</string>
+	<string name="menu_privacy">Privacy Policy</string>
+	<string name="menu_term">Terms Of Use</string>
+	
+    <!-- MAIL BOX -->
+    <string name="more_detail">More detail</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="mailbox_no_result">No result found</string>
+    <string name="msg_search_by_date">Date Time</string>
+
+    <!-- LOGIN -->
+    <string name="login">LOGIN</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_remeber_password">Save password</string>
+    <string name="login_password">Password</string>
+    <string name="login_validate_id">Please input member id.</string>
+    <string name="login_validate_id_j">会員IDを入力してください。</string>
+    <string name="login_validate_pwd">Please input password.</string>
+    <string name="login_validate_pwd_j">パスワードを入力してください。</string>
+    
+    <!-- HELP -->
+    <string name="help_policy">Privacy Policy</string>
+    <string name="help_trade_law">Trade law</string>
+    <string name="help_term">Term of use</string>
+    
+    <string name="help_policy_j">プライバシーポリシー</string>
+    <string name="help_trade_law_j">特定商取引法に基づく表記</string>
+    <string name="help_term_j">ご利用規約</string>
+    
+    <!-- FORGOTPASS -->
+    <string name="forgotpwd_back_to_login">Back To Sign In</string><!-- Back to login -->
+    <string name="forgotpwd_lable1">If you forgot your ID, please contact</string>
+    <string name="forgotpwd_lable2">support@member.skypremium.com.sg</string>
+    <string name="forgotpwd_lable3"></string>
+    <string name="forgotpwd_btn">SUBMIT</string><!-- Submit -->
+    <string name="forgotpwd_hint_mail">Email </string>
+    
+    <!-- PROFILE -->
+    <string name="profile">Information</string><!-- Profile -->
+    <string name="profile_first_name">First name(EN)</string>
+    <string name="profile_middle_name">Middle name(EN)</string>
+    <string name="profile_last_name">Last name(EN)</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_mobile_mail">Mobile mail</string>
+    <string name="profile_tel">Tel</string>
+    <string name="profile_date_of_birth">Date of birth</string>
+    <string name="profile_sex">Sex</string>
+    <string name="profile_sex_male">Male</string>
+    <string name="profile_sex_female">Female</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_city">City</string>
+    <string name="profile_postal_code">Postal code</string>
+    <string name="profile_address">Address</string>
+    <string name="profile_address_kana">Address Kana</string>
+    <string name="profile_recommended_by">Recommended by</string>
+    <string name="profile_recommend">Recommend</string>
+    <string name="profile_change_password">Change password</string>
+    <string name="profile_update">Update profile</string>
+    <string name="profile_language">Language</string>
+    <string name="invite_mail_language">Mail Language</string>
+    <string name="profile_information">Information</string>
+    <string name="profile_contract">Contract</string>
+    <string name="profile_purchased">Purchase History</string>
+    <string name="profile_fullname">Name</string>
+    <string name="profile_id">ID</string>
+    
+    <string name="profile_recomment_id">ID</string>
+    <string name="profile_recomment_name">Name</string>
+    <string name="profile_recomment_email">Mail</string>
+    <string name="profile_recomment_id_j">ID</string>
+    <string name="profile_recomment_name_j">氏名</string><!-- 記事名 -->
+    <string name="profile_recomment_email_j">メール</string>
+    
+    <string name="profile_edit">Edit Information</string>
+    <string name="profile_edit_j">会員情報更新</string>
+    <string name="profile_address_validate">Address must contain english characters only.</string>
+    <string name="profile_address_validate_j">ご住所（ローマ字）に半角文字だけを入力して下さい。</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_password">Change password</string>
+    <string name="change_password_old">Old password</string>
+    <string name="change_password_new">New password</string>
+    <string name="change_password_confirm">Confirm new password</string>
+
+    <!-- PURCHASED -->
+    <string name="purchase_history">Purchased</string>
+    <string name="purchase_order_code">Order Code</string>
+    <string name="purchase_amount">Amount</string>
+    <string name="purchase_status">Status</string>
+    <string name="purchase_product">Product</string>
+    <string name="purchase_price">Price</string>
+
+    <!-- CONTRACT -->
+    <string name="contract">Contract</string>
+    <string name="contract_status">Status</string>
+    <string name="contract_grade">Grade</string>
+    <string name="contract_payment_method">Payment method</string>
+    <string name="contract_registered_date">Registered date</string>
+    <string name="contract_start_date">Start date</string>
+    <string name="contract_next_update_date">Next update date</string>
+    <string name="contract_update_time">Contract\'s updated time</string>
+    <string name="contract_bt_upgrade_to_platinum">Upgrade to platinum</string>
+    <string name="contract_grade_title">Grade</string>
+    <string name="contract_grade_value1">Gold (80 USD/month)</string>
+    <string name="contract_grade_value2">Platinum (80 USD/month)</string>
+    <string name="contract_paymentmethod_title">Payment method</string>
+    <!-- <string name="contract_paymentmethod_value1">Credit card</string>
+    <string name="contract_paymentmethod_value2">Bank transfer</string> -->
+    <string name="contract_termofuse">Term Of Use</string>
+    <string name="contract_iagree">I Agree To The Term Of Use And Privacy Policy Of Sky Premium Member Club</string>
+    <string name="contract_iagree2">I Agree to the Membership Agreement</string>
+    <string name="contract_bt_extend">Extend</string>
+    <string name="contract_bt_upgrade">Upgrade</string>
+    <string name="contract_bt_reset">Reset</string>
+    <string name="contract_bt_register">Register</string>
+    <string name="contract_description0">The payment in the case of bank transfer will be annual.</string>
+    <string name="contract_description1">This payment applies only for those who want to upgrade the status from Gold to Platinum. The difference of the monthly membership fee between Gold and Platinum is USD50/month, and this difference x the rest of the contract months needs to be paid.</string>
+    <string name="contract_description2">Please note that the settlement name of SKY PREMIUM which appears on your credit card statement will be [AXES SOLUTIONS].</string>
+    <string name="contract_description3">Your contract is waiting for admin confirmation to upgrade to platinum member successfully.</string>
+    <string name="contract_description4">Click here to cancel your upgrade contract request.</string>
+    <string name="contract_description5">Update credit card information</string>
+    <string name="contract_description6">(Your AXES\'s ID is 1562, please enter this to the ID input field on AXES\'s page)</string>
+    <string name="contract_description7">※Bank transfer: Bank transfer is used for payment of annual fee only. The different fee occurred by middle-upgrade will be paid separately.</string>
+    <string name="contract_description8">※Please understand that we don’t inherit your payment information used in Samurai Station base on personal information protection view point. But, the payment method “Bank transfer” on the new system includes “Lump-sum payment by Credit card” method which was used in Samurai Station.</string>
+    <string name="contract_coupon_code">Coupon code</string>
+    <string name="contract_coupon_code_des">Please skip it if you don’t have a coupon code</string>
+    <string name="contract_update_annual">Update Annual Contract</string>
+    <string name="contract_update_paymentmethod_value11">Monthly payment</string>
+    <string name="contract_update_paymentmethod_value12">12 months in advance payment</string>
+    <string name="contract_update_paymentmethod_value21">Credit card (for 12 months)</string>
+    <string name="contract_update_paymentmethod_value22">Bank transfer (for 12 months)</string>
+    <string name="contract_update_header_des1_1">It is the time to update your annual contract</string>
+    <string name="contract_update_header_des1_2">Please update your contract using the below screen</string>
+    <string name="contract_update_header_des2">"Monthly payment" is available only credit card</string>
+    <string name="contract_update_footer_des1">Please note that the settlement name of SKY PREMIUM which appears on your credit card statement will be [AXES SOLUTIONS].</string>
+    <string name="contract_update_footer_des2"></string>
+    <string name="contract_update_footer_des3"></string>
+    <string name="contract_update_footer_des4"></string>
+    <string name="contract_update_footer_des5"></string>
+    <string name="contract_only_credit">※ Only credit card payment accept monthly payment</string>
+    <string name="contract_only_credit_j">※ 「月額払い」はクレジットカードのみご利用いただけます</string>
+    <string name="contract_update_unpaid">Update Contract Unpaid</string>
+    <string name="contract_update_unpaid_j">未払いお契約の更新</string>
+    <string name="contract_extend_after_expire">Extend After Expire</string>
+    <string name="contract_extend_after_expire_j">年間ご契約の更新</string>
+    <string name="contract_dialog_confirm">Do you really want to register the contract?</string><!-- extend  -->
+    <string name="contract_dialog_confirm_j">本当に契約登録を 行いますか？</string><!-- 本当に契約更新を 行いますか？ -->
+    <string name="contract_dialog_confirm_extend">Do you really want to extend the contract?</string><!-- extend  -->
+    <string name="contract_dialog_confirm_extend_j">本当に契約更新を 行いますか？</string>
+    <string name="contract_extend_confirm_admin">Your contract is waiting for admin confirmation to extend successfully.</string><!-- Extend contract successfully. Waiting for admin confirmation -->
+    <string name="contract_extend_confirm_admin_j">ご契約更新は事務局の承認待ちとなります。</string><!-- ご契約の更新が完了いたしました。事務局の承認をお待ち下さい。 -->
+    
+    <string name="contract_bt_upgrade_to_platinum_j">Upgrade to platinum</string>
+    <string name="contract_grade_title_j">グレード</string>
+    <string name="contract_grade_value1_j">Gold (80 USD/month)</string>
+    <string name="contract_grade_value2_j">Platinum (80 USD/month)</string>
+    <string name="contract_paymentmethod_title_j">お支払い方法</string>
+   <!--  <string name="contract_paymentmethod_value1_j">Credit card</string>
+    <string name="contract_paymentmethod_value2_j">Bank transfer</string> -->
+    <string name="contract_termofuse_j">利用規約</string><!-- 会員規約 -->
+    <string name="contract_iagree_j">ご利用規約にご同意頂いた場合、規約内容に同意されたものとみなされます。</string><!-- サービス規約にご同意頂きますと、それらを無条件に順守します。 -->
+    <string name="contract_iagree2_j">SKY PREMIUM の会員規約及びプライバシー ポリシーに同意する</string>
+    <string name="contract_bt_extend_j">契約延長</string><!-- 登録 -->
+    <string name="contract_bt_upgrade_j">Upgrade</string>
+    <string name="contract_bt_reset_j">リセット</string>
+    <string name="contract_bt_register_j">登録</string>
+    <string name="contract_description0_j">銀行振り込みの場合、年間一括でのお支払いとなります</string>
+    <string name="contract_description1_j">This payment applies only for those who want to upgrade the status from Gold to Platinum. The difference of the monthly membership fee between Gold and Platinum is USD50/month, and this difference x the rest of the contract months needs to be paid.</string>
+    <string name="contract_description2_j">※SKY PREMIUM の決済名は【AXES SOLUTIONS】になります。お客様のクレジットカード明細に表示される名称になりますので、お間違えのない様にお願いいたします。</string>
+    <string name="contract_description3_j">Your contract is waiting for admin confirmation to upgrade to platinum member successfully.</string>
+    <string name="contract_description4_j">Click here to cancel your upgrade contract request.</string>
+    <string name="contract_description5_j">Update credit card information</string>
+    <string name="contract_description6_j">(Your AXES\'s ID is 1562, please enter this to the ID input field on AXES\'s page)</string>
+    <string name="contract_description7_j">※Bank transfer: Bank transfer is used for payment of annual fee only. The different fee occurred by middle-upgrade will be paid separately.</string>
+    <string name="contract_description8_j">※Please understand that we don’t inherit your payment information used in Samurai Station base on personal information protection view point. But, the payment method “Bank transfer” on the new system includes “Lump-sum payment by Credit card” method which was used in Samurai Station.</string>
+	<string name="contract_coupon_code_j">クーポンコード </string>
+	<string name="contract_coupon_code_des_j">クーポンコードをお持ちでない方は空欄でお手続きください。</string>
+	<string name="contract_update_annual_j">会員資格更新</string>
+	<string name="contract_update_paymentmethod_value11_j">月額払い</string>
+    <string name="contract_update_paymentmethod_value12_j">12ヶ月一括先払い</string>
+    <string name="contract_update_paymentmethod_value21_j">クレジットカード払い（12ヶ月一括先払い）</string>
+    <string name="contract_update_paymentmethod_value22_j">銀行振込（12ヶ月一括先払い）</string>
+    <string name="contract_update_header_des1_1_j">It is the time to update your annual contract</string>
+    <string name="contract_update_header_des1_2_j">Please update your contract using the below screen</string>
+    <string name="contract_update_header_des2_j">"Monthly payment" is available only credit card</string>
+    <string name="contract_update_footer_des1_j">※SKY PREMIUM の決済名は【AXES SOLUTIONS】になります。お客様のクレジットカード明細に表示される名称になりますので、お間違えのない様にお願いいたします。</string>
+    <string name="contract_update_footer_des2_j"></string>
+    <string name="contract_update_footer_des3_j"></string>
+    <string name="contract_update_footer_des4_j"></string>
+    <string name="contract_update_footer_des5_j"></string>
+    
+    <string name="contract_not_tranf_yet">Not Transfer Yet</string>
+    <string name="contract_not_tranf_yet_j">ユーザ情報</string>
+    <string name="contract_not_tranf_yet_user_info">User infomation</string>
+    <string name="contract_not_tranf_yet_firstname">First name(EN)</string>
+    <string name="contract_not_tranf_yet_middlename">Middle name(EN)</string>
+    <string name="contract_not_tranf_yet_lastname">Last name(EN)</string>
+    <string name="contract_not_tranf_yet_email">Email</string>
+    <string name="contract_not_tranf_yet_tel">Tel</string>
+    <string name="contract_not_tranf_yet_date">Date of birth</string>
+    <string name="contract_not_tranf_yet_sex">Sex</string>
+    <string name="contract_not_tranf_yet_contractinfo">Contract infomation</string>
+    <string name="contract_not_tranf_yet_status">Status</string>
+    <string name="contract_not_tranf_yet_grade">Grade</string>
+    <string name="contract_not_tranf_yet_paymentmethod">Payment method</string>
+    <string name="contract_not_tranf_yet_regdate">Registered date</string>
+    <string name="contract_not_tranf_yet_startdate">Start date</string>
+    <string name="contract_not_tranf_yet_nextdate">Next update date</string>
+    <string name="contract_not_tranf_yet_updatetime">Contract\'s updated time</string>
+    <string name="contract_not_tranf_yet_logout">Logout</string>
+    <string name="contract_register_another_credit_card">Register Another Credit Card</string>
+    <string name="contract_register_another_credit_card_1">Your contract has been temporarily stopped as we cannot charge from your credit account. Please register another credit card to continue use our service.</string>
+    <string name="contract_register_another_credit_card_2">Update credit card information</string>
+    <string name="contract_register_another_credit_card_3">(Your AXES\'s ID is %s, please enter this to the ID input field on AXES\'s page)</string>
+        
+    <string name="contract_not_tranf_yet_user_info_j">会員情報</string>
+    <string name="contract_not_tranf_yet_firstname_j">姓(ローマ字)</string>
+    <string name="contract_not_tranf_yet_middlename_j">ミドルネーム(ローマ字)</string>
+    <string name="contract_not_tranf_yet_lastname_j">名(ローマ字)</string>
+    <string name="contract_not_tranf_yet_email_j">メールアドレス</string>
+    <string name="contract_not_tranf_yet_tel_j">電話番号</string>
+    <string name="contract_not_tranf_yet_date_j">お誕生日</string>
+    <string name="contract_not_tranf_yet_sex_j">性別</string>
+    <string name="contract_not_tranf_yet_contractinfo_j">契約情報</string>
+    <string name="contract_not_tranf_yet_status_j">ステータス</string>
+    <string name="contract_not_tranf_yet_grade_j">グレード</string>
+    <string name="contract_not_tranf_yet_paymentmethod_j">お支払い方法</string>
+    <string name="contract_not_tranf_yet_regdate_j">契約登録日時</string>
+    <string name="contract_not_tranf_yet_startdate_j">契約完了日時</string>
+    <string name="contract_not_tranf_yet_nextdate_j">更新すべき月</string>
+    <string name="contract_not_tranf_yet_updatetime_j">更新日時</string>
+    <string name="contract_not_tranf_yet_logout_j">ログアウト</string>
+    <string name="contract_register_another_credit_card_j">他のクレジットカードの登録</string>
+    <string name="contract_register_another_credit_card_1_j">ご登録クレジットカードからのお支払いが確認できないため、ご契約は一時的に中止させて頂きます。サービスを再利用するために、他のクレジットカードを登録して下さい。 </string>
+    <string name="contract_register_another_credit_card_2_j">クレジットカード情報更新 </string>
+    <string name="contract_register_another_credit_card_3_j">『あなたのAXESのIDは%sです。そのIDをAXESのページの該当項目に入力して下さい。』</string>
+	
+    <!-- CONTACT -->
+    <string name="contact_title_label">Contact type</string>
+    <string name="contact_title">Select your contact type *</string>
+    <string name="contact_confirm_require">Please select contact type!</string>
+    <string name="contact_type_about_spmc">About SKY PREMIUM</string>
+    <string name="contact_type_about_annual_fee">About membership fee</string>
+    <string name="contact_type_about_cancel_membership">Cancel the membership</string>
+    <string name="contact_type_about_upgrate_request">Upgrade request </string>
+    <string name="contact_type_about_personal_information">About personal information</string>
+    <string name="contact_type_other">Other</string>
+    <string name="contact_type_update_contract">Update contract</string>
+    <string name="contact_type_update_contract_j">契約更新について</string>
+    <string name="contact_title_require">Please input the title</string>
+    <string name="contact_content_require">Please input the content</string>
+    <string name="contact_history_list">Contact History</string>
+    <string name="contact_us_message_phone_click">Your\'s device can\'t support this function, pls contact to </string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="contact_us_title_content">Title</string>
+    <string name="contact_us_content">Content</string>
+    <string name="contact_list_title">Exclusive Restaurant</string>
+    <string name="contact_us_create">Create</string>
+    <string name="contact_us_reply">Reply</string>
+    <string name="contact_us_send">Send</string>
+
+    <!-- INVITE YOUR FRIEND -->
+    <string name="invite_friend_intro">Invite your friend to SKY PREMIUM</string>
+    <string name="invite_friend_guid_step_1">Fill your friend\'s e-mail address below and click the \"Send\" button</string>
+    <string name="invite_friend_guid_step_2">An e-mail with URL for applying to SKY PREMIUM will be sent to your friend</string>
+    <string name="invite_friend_guid_step_3">Click a listed URL, and please apply</string>
+    <string name="invite_friend_add_more">Add more emails</string>
+    <string name="invite_friend_coupon">Coupon Code</string>
+    <string name="invite_friend_emails">Friend emails *</string>
+    <string name="invite_friend_success">The invitation mail has been sent to your friend.</string>
+    <string name="invite_friend_emails_error_not_found">Not found email</string>
+    <string name="invite_friend_emails_error_format">email incorect</string>
+    <string name="invite_delete_mail">Edit</string>
+    <string name="invite_delete_mail_j">編集</string>
+    <string name="invite_done_mail">Done</string>
+    <string name="invite_done_mail_j">閉じる</string>
+
+    <!-- SERVICE -->
+    <string name="service">Service</string>
+    <string name="price_unit">￥</string>
+
+    <!-- DOWNLOAD -->
+    <string name="title_btn_done">Done</string>
+    <string name="popup_content">Choose the action</string>
+    <string name="title_btn_download">Download</string>
+    <string name="title_btn_open">Open</string>
+    <string name="title_btn_cancel">Cancel</string>
+    <string name="title_mess_file_dont_exist">File does not exist</string>
+
+    <!-- NEWS -->
+    <string name="title_popup_sort">Sort By</string>
+    <string name="title_btn_name_sort">Name</string>
+    <string name="title_btn_date_sort">Date</string>
+    <string name="title_btn_category_sort">Category</string>
+    <string name="title_btn_news_category">News</string>
+    <string name="title_screen">News</string>
+    <string name="ec_home">The Selection</string>
+
+    <!-- EC -->
+    <string name="ec_price">Price</string>
+    <string name="ec_price_unit">¥</string>
+    <string name="ec_in_stock">In stock</string>
+    <string name="ec_out_stock">Out of stock</string>
+    <string name="ec_taxincl">(Tax incl.)</string>
+    <string name="ec_taxincl_j">（税込）</string>
+    
+    <!-- EC MYCART -->
+    <string name="ec_mycart_header">MY CART</string>
+    <string name="ec_mycart_price">Price</string>
+    <string name="ec_mycart_price_unit">¥</string>
+    <string name="ec_mycart_quantity">Quantity</string>
+    <string name="ec_mycart_amount">Amount</string>
+    <string name="ec_mycart_total">Total</string>
+    <string name="ec_mycart_bt_checkout">Proceed to checkout</string>
+    <string name="ec_mycart_bt_continue">Continue shopping</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="add_to_cart2">Add to cart</string>
+    <string name="ec_mycart_add_status">Product successfully added to your  shopping cart</string>
+    <string name="ec_mycart_add_totalcart">There are %s items in your shopping cart</string>
+    <string name="ec_mycart_add_totaltax">Total products (tax incl):</string>
+    <string name="ec_mycart_add_ship">Total shipping (tax incl):</string>
+    <string name="ec_mycart_add_ship_status">Free shipping</string>
+    <string name="ec_mycart_add_tax">Tax:</string>
+    <string name="ec_mycart_add_total">Total (tax incl):</string>
+    <string name="ec_shipping">Shipping charges (including tax):</string>
+    
+    <string name="ec_mycart_subtotal">Sub total (tax incl):</string>
+    <string name="ec_mycart_shipfee">Shipping fee (tax incl):</string>
+    <string name="ec_mycart_tax">Tax:</string>
+    <string name="ec_mycart_subtotal_j">商品合計（税込）:</string>
+    <string name="ec_mycart_shipfee_j">配送料（税込）:</string><!-- 送料合計（税込）: -->
+    <string name="ec_mycart_tax_j">消費税:</string>
+    <string name="ec_shipping_j">配送料 （税込）:</string>
+    
+    <string name="ec_address_header">EDIT ADDRESS</string>
+    <string name="ec_address_delivery_title">Delivery address</string>
+    <string name="ec_address_name">Name:</string>
+    <string name="ec_address_tel">Tel:</string>
+    <string name="ec_address_mail">Mail:</string>
+    <string name="ec_address_shipping">Shipping address:</string>
+    <string name="ec_address_bt_update">Update</string>
+    <string name="ec_address_bt_choose">Choose another address from address book</string>
+    <string name="ec_address_delivery_check">Use the delivery address as billing  address</string>
+    <string name="ec_address_billing_title">Billing address</string>
+    <string name="ec_address_bt_add">Add new address</string>
+    <string name="ec_address_book_header">ADDRESS BOOK</string>
+    <string name="ec_address_book_select">Select this address</string>
+    <string name="ec_address_new_header">NEW ADDRESS</string>
+    <string name="ec_address_new_title">Register new address</string>
+    <string name="ec_address_new_fname">First name (</string>
+    <string name="ec_address_new_lname">Last name (</string>
+    <string name="ec_address_new_company">Company</string>
+    <string name="ec_address_new_address">Address (</string>
+    <string name="ec_address_new_address2">Address (line 2)</string>
+    <string name="ec_address_new_zipcode">Zip / Postal Code (</string>
+    <string name="ec_address_new_city">City (</string>
+    <string name="ec_address_new_state">Prefectures (</string><!-- State -->
+    <string name="ec_address_new_country">Country (</string>
+    <string name="ec_address_new_homephone">Tel (input half size) (</string><!-- Home phone -->
+    <string name="ec_address_new_mobile">Mobile phone (</string><!-- Mobile -->
+    <string name="ec_address_new_info">More info</string><!-- Additional Information -->
+    <string name="ec_address_new_alias">Alias (</string>
+    <string name="ec_address_new_bt_save">Save</string>
+    <string name="ec_address_new_validate_end">)</string>
+    <string name="ec_address_edit_header">EDIT ADDRESS</string>
+    <string name="ec_credit_header">CREDIT CARD</string>
+    <string name="ec_credit_name">Name:</string>
+    <string name="ec_credit_tel">Tel:</string>
+    <string name="ec_credit_cardnum">Card number:</string>
+    <string name="ec_credit_exp">Expire date:</string>
+    <string name="ec_credit_select">Select this card</string>
+    <string name="ec_creditnew_header">PAYMENT INFO</string>
+    <string name="ec_creditnew_name">Card holder name</string><!-- Name on card -->
+    <string name="ec_creditnew_cardnum">Credit card number</string>
+    <string name="ec_creditnew_code">Sercurity code</string>
+    <string name="ec_creditnew_expired">Expired date</string>
+    <string name="ec_creditnew_phone">Phone</string>
+    <string name="ec_creditnew_email">Email</string>
+    <string name="ec_creditnew_bt_save">Save</string>
+    <string name="ec_credit_confirm_header">PAYMENT CONFIRM</string>
+    <string name="ec_credit_confirm_amount">Amount</string>
+    <string name="ec_credit_confirm_expired">Expire date (MM / YYYY)</string>
+    <string name="ec_credit_confirm_bt">Complete</string><!-- Confirm Complete Order-->
+    <string name="ec_finish_header">PAYMENT FINISH</string>
+    <string name="ec_finish_status">Your order is success</string>
+    <string name="ec_delete_confirm">Do you want to delete this product?</string>
+    <string name="ec_address_validate">※) is required</string>
+    <string name="ec_address_validate_j">※) を 入力してください。</string>
+    
+    <string name="ec_creditnew_header2">ADD NEW CARD</string>
+    <string name="ec_creditnew_name2">Card holder name (</string>
+    <string name="ec_creditnew_cardnum2">Credit card number (</string>
+    <string name="ec_creditnew_code2">Sercurity code (</string>
+    <string name="ec_creditnew_expired2">Expired date (</string>
+    <string name="ec_creditnew_phone2">Phone (</string>
+    <string name="ec_creditnew_email2">Email (</string>
+    <string name="ec_creditnew_header2_j">新規クレジットカード登録</string>
+    <string name="ec_creditnew_name2_j">ご登録氏名 (</string>
+    <string name="ec_creditnew_cardnum2_j">カード番号 (</string>
+    <string name="ec_creditnew_code2_j">セキュリティコード (</string>
+    <string name="ec_creditnew_expired2_j">有効期限 (</string>
+    <string name="ec_creditnew_phone2_j">ご登録電話番号 (</string>
+    <string name="ec_creditnew_email2_j">メールアドレス (</string>
+    <string name="ec_creditnew_validate">※) is required</string>
+    <string name="ec_creditnew_validate_j">※) を入力してください。</string>
+    <string name="ec_creditnew_mailvalidate">Please input correct mail address</string>
+    <string name="ec_creditnew_mailvalidate_j">正しいメールアドレスを入力してください。</string>
+    <string name="ec_quantity_validate">There isn\'t enough product in stock.</string>
+    <string name="ec_quantity_validate_j">在庫が足りません。</string>
+    <string name="ec_mycart_total2">TOTAL(not include Shipping fee)</string><!-- TOTAL -->
+    <string name="ec_mycart_total2_j">合計(配送料含まない)</string><!-- 合計(税込） -->
+    <string name="ec_mycart_empty">Your shopping cart is empty</string>
+    <string name="ec_mycart_empty_j">ショッピングカートは空です</string>
+    <string name="call_error">Your\'s device can\'t support this function, \ pls contact to</string>
+    <string name="call_error_j">お客様のデバイスはこのボタンを使用できません。お手数ですがこちらにお問い合わせください。</string>
+    
+    <string name="ec_ship_header">SHIPPING</string>
+    <string name="ec_ship_header_j">配送方法</string>
+    <string name="ec_ship_list_carrier">Carrier :</string>
+    <string name="ec_ship_list_carrier_j">配送方法 :</string>
+    <string name="ec_ship_list_product">Product :</string>
+    <string name="ec_ship_list_product_j">商品名 :</string>
+    <string name="ec_ship_total">Shipping</string><!--  (tax incl)  -->
+    <string name="ec_ship_total_j">配送料</string><!-- 配送費  (税込)-->
+    <string name="ec_ship_total2">（Tax incl.）</string>
+    <string name="ec_ship_total2_j">（税込）</string>
+    <string name="ec_ship_total_include">TOTAL (include Shipping fee)</string>
+    <string name="ec_ship_total_include_j">合計(配送料含む)</string><!-- 配送費 (配送費含む) -->
+    <string name="ec_ship_team">You must accept Terms of use.</string>
+    <string name="ec_ship_team_j">利用規約に同意する必要があります。</string>
+    <string name="ec_ship_team_header">TERMS OF USE</string>
+    <string name="ec_ship_team_header_j">利用規約</string>
+    <string name="ec_ship_team_more">Read the Terms of Use</string>
+    <string name="ec_ship_team_more_j">利用規約を読む</string>
+    
+    <!-- term jp -->
+    <string name="menu_trade_law_j">特定商取引法に基づく表記</string>
+	<string name="menu_privacy_j">プライバシーポリシー</string>
+	<string name="menu_term_j">ご利用規約</string>
+    
+    <string name="msg_forgot_pass_success">We\'ve sent you a new password. Please check your email.</string>
+    <string name="msg_forgot_pass_success_j">再発行したパスワードをお送りしました。ご確認下さい。</string>
+    <!-- JAPAN -->
+    <string name="account_j">アカウント</string>
+    <string name="language_j">言語</string>
+
+    <!-- NORMAL -->
+    <string name="tlt_submit_j">送信</string>
+    <string name="tlt_reset_j">リセット</string>
+    <string name="tlt_send_j">送信する</string>
+    <string name="tlt_no_index_j">いいえ</string>
+    <string name="tlt_yes_index_j">はい</string>
+    <string name="tlt_cancel_j">キャンセル</string>
+    <string name="tlt_back_j">戻る</string>
+    <string name="tlt_title_j">タイトル</string>
+    <string name="tlt_edit_j">Edit</string>
+    <string name="tlt_return_j">戻る</string>
+    <string name="tlt_ok_j">戻る</string>
+    <string name="tlt_ok_new_j">開く</string>
+
+    <!-- MESSAGE -->
+    <string name="msg_no_j">いいえ</string>
+    <string name="msg_yes_j">はい</string>
+    <string name="msg_logout_confirm_j">ログアウトしますか？</string>
+    <string name="msg_password_change_success_j">パスワードの変更に成功を</string>
+    <string name="msg_return_j">戻る</string>
+    <string name="msg_language_j">表示言語</string>
+    <string name="msg_member_id_j">会員ID</string>
+    <string name="msg_member_email_j">メールアドレス</string>
+    <string name="msg_content_j">お問い合わせ内容</string>
+    <string name="msg_success_j">送信完了しました。</string>
+    <string name="msg_failure_j">ネットワークを確認してからもう一度接続してください。</string>
+    <string name="msg_subject_j">件名</string>
+    <string name="msg_search_j">検索</string>
+    <string name="msg_err_connect_j">サーバに接続できない。</string>
+    <string name="msg_continue_shopping_j">Continue shopping</string>
+    <string name="msg_process_to_checkout_j">Process to checkout</string>
+    <string name="msg_success_add_to_cart_j">Product successfully added to your shopping cart</string>
+    <string name="msg_content_null_j">Content null</string>
+    <string name="msg_enter_title_j">タイトルを入力してください。</string>
+    <string name="msg_enter_content_j">お問い合わせ内容を入力してください。</string>
+    <string name="msg_enter_type_j">お問い合わせタイプを選択してください</string>
+    <string name="msg_sign_in_j">ログイン</string>
+    <string name="msg_clear_j">クリア</string>
+    <string name="msg_result_search_j">検索結果</string>
+
+    <!-- MENU LIST -->
+    <string name="menu_mailbox_j">メールボックス</string>
+    <string name="menu_faq_j">よくある質問</string>
+    <string name="menu_download_j">ダウンロード</string>
+    <string name="menu_contact_us_j">お問い合わせ</string>
+    <string name="menu_news_j">新着情報</string>
+    <string name="menu_about_spmc_j">SKY PREMIUMについて</string>
+    <string name="menu_invite_friend_j">お友達を紹介</string><!-- ご友人ご紹介 -->
+    <string name="menu_qr_code_j">QR Code</string>
+    <string name="menu_service_list_j">ホーム（サービスリスト）</string>
+    <string name="spmc_selection_j">SPMC SELECTION</string>
+    <string name="menu_my_profile_j">会員情報</string>
+    <string name="menu_logout_j">ログアウト</string>
+    <string name="menu_lang_japanese_j">日本語</string>
+    <string name="menu_lang_english_j">English</string>
+    <string name="menu_language_j">日本語</string>
+    <string name="menu_account_j">アカウント</string>
+    <string name="menu_change_pass_j">パスワード変更</string>
+    <string name="menu_gallery_j">ギャラリー</string>
+	<string name="menu_version_j">バージョン </string>
+    <string name="menu_version_doc_j">2015 SKY PREMIUM MEMBERSHIP CLUB</string>
+    <!-- MAIL BOX -->
+    <string name="more_detail_j">続きをみる</string>
+    <string name="from_j">から</string>
+    <string name="to_j">まで</string>
+    <string name="mailbox_no_result_j">検索結果がありません</string>
+    <string name="msg_search_by_date_j">受信日時</string>
+
+    <!-- LOGIN -->
+    <string name="login_j">ログイン</string>
+    <string name="login_forgot_password_j">パスワードをお忘れの方はこちらへ</string>
+    <string name="login_remeber_password_j">次回からパスワードを記憶</string>
+    <string name="login_password_j">パスワード</string>
+
+    <!-- FORGOTPASS -->
+    <string name="forgotpwd_back_to_login_j">ログインページに戻る</string>
+    <string name="forgotpwd_lable1_j">IDをお忘れになった場合は</string>
+    <string name="forgotpwd_lable2_j">support@member.skypremium.com.sg</string>
+    <string name="forgotpwd_lable3_j">までご連絡下さい。 </string>
+    <string name="forgotpwd_btn_j">送信</string>
+    <string name="forgotpwd_hint_mail_j">メールアドレス </string>
+    
+    <!-- PROFILE -->
+    <string name="profile_j">会員情報</string><!-- プロフィール -->
+    <string name="profile_first_name_j">姓（ローマ字）</string><!-- 英語お名前(せい) -->
+    <string name="profile_middle_name_j">ミドルネーム（ローマ字）</string><!-- 英語お名前（ミドルネーム） -->
+    <string name="profile_last_name_j">名（ローマ字）</string><!-- 英語お名前(めい) -->
+    <string name="profile_email_j">メールアドレス</string>
+    <string name="profile_mobile_mail_j">携帯メール</string>
+    <string name="profile_tel_j">電話番号</string>
+    <string name="profile_date_of_birth_j">お誕生日</string>
+    <string name="profile_sex_j">性別</string>
+    <string name="profile_sex_male_j">男性</string>
+    <string name="profile_sex_female_j">女性</string>
+    <string name="profile_country_j">国名</string>
+    <string name="profile_city_j">都市</string>
+    <string name="profile_postal_code_j">郵便番号</string>
+    <string name="profile_address_j">ご住所（ローマ字）</string><!-- ご住所 -->
+    <string name="profile_address_kana_j">ご住所（日本語）</string><!-- ご住所（カナ） -->
+    <string name="profile_recommended_by_j">被紹介者 氏名</string>
+    <string name="profile_recommend_j">ご紹介</string>
+    <string name="profile_change_password_j">パスワード変更</string>
+    <string name="profile_update_j">更新プロファイル</string>
+    <string name="profile_language_j">表示言語</string>
+    <string name="profile_information_j">会員情報</string>
+    <string name="profile_contract_j">ご契約管理</string>
+    <string name="profile_purchased_j">注文履歴</string>
+    <string name="profile_fullname_j">お名前</string>
+    <string name="profile_id_j">ID</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_password_j">パスワード変更</string>
+    <string name="change_password_old_j">現行パスワード </string>
+    <string name="change_password_new_j">新しいパスワード </string>
+    <string name="change_password_confirm_j">新しいパスワード確認 </string>
+
+    <!-- PURCHASED -->
+    <string name="purchase_history_j">注文履歴</string>
+    <string name="purchase_order_code_j">注文コード</string>
+    <string name="purchase_amount_j">金額</string>
+    <string name="purchase_status_j">注文状況</string>
+    <string name="purchase_product_j">Product</string>
+    <string name="purchase_price_j">値段(税込)</string>
+
+    <!-- CONTRACT -->
+    <string name="contract_j">ご契約管理</string>
+    <string name="contract_status_j">ステータス</string>
+    <string name="contract_grade_j">グレード</string>
+    <string name="contract_payment_method_j">お支払い方法	</string>
+    <string name="contract_registered_date_j">契約登録日時	</string>
+    <string name="contract_start_date_j">契約完了日時</string>
+    <string name="contract_next_update_date_j">更新すべき月</string>
+    <string name="contract_update_time_j">更新日時</string>
+
+    <!-- CONTACT -->
+    <string name="contact_title_label_j">お問い合わせ内容選択 *</string>
+    <string name="contact_title_j">お問い合わせタイプ選択 *</string>
+    <string name="contact_confirm_require_j">問い合わせタイプを選択してください！</string>
+    <string name="contact_type_about_spmc_j">SKY PREMIUMについて</string>
+    <string name="contact_type_about_annual_fee_j">会費の支払いに関して</string>
+    <string name="contact_type_about_cancel_membership_j">退会について</string>
+    <string name="contact_type_about_upgrate_request_j">アップグレード希望 </string>
+    <string name="contact_type_about_personal_information_j">個人情報、IDについて</string>
+    <string name="contact_type_other_j">その他</string>
+    <string name="contact_title_require_j">タイトルを入力してください。</string>
+    <string name="contact_content_require_j">お問い合わせ内容を入力してください。</string>
+    <string name="contact_history_list_j">お問い合わせ一覧</string>
+    <string name="contact_us_message_phone_click_j">お客様のデバイスはこのボタンを使用できません。お手数ですがこちらにお問い合わせください。</string>
+    <string name="contact_us_title_j">お問い合わせ</string>
+    <string name="contact_us_title_content_j">タイトル</string>
+    <string name="contact_list_title_j">Exclusive Restaurant</string>
+    <string name="contact_us_content_j">お問い合わせ内容</string>
+    <string name="contact_us_create_j">新規作成</string>
+    <string name="contact_us_reply_j">返信</string>
+    <string name="contact_us_send_j">送信</string>
+    <!-- INVITE YOUR FRIEND -->
+    <string name="invite_friend_intro_j">ご友人にSKY PREMIUMを紹介する</string>
+    <string name="invite_friend_guid_step_1_j">以下にご友人のメールアドレスを記入し、送信してください。</string>
+    <string name="invite_friend_guid_step_2_j">自動的にSKY PREMIUMの申込みのURLが記載されたメールがご友人に送信されます。</string>
+    <string name="invite_friend_guid_step_3_j">記載されているURLをクリックして申込みをしてください。</string>
+    <string name="invite_friend_add_more_j">メールアドレスを追加</string>
+    <string name="invite_friend_coupon_j">クーポンコード</string>
+    <string name="invite_friend_emails_j">ご友人メールアドレス *</string>
+    <string name="invite_friend_success_j">お友達に紹介メールを送信しました。</string>
+    <string name="invite_friend_emails_error_not_found_j">Not found email</string>
+    <string name="invite_friend_emails_error_format_j">email incorect</string>
+    <string name="invite_friend_header_j">お友達を紹介</string>
+    <string name="invite_laguage_j">送信メール表示言語</string>
+    <string name="invite_btn_send_j">送信する</string>
+ 
+    <!-- SERVICE -->
+    <string name="service_j">Service</string>
+    <string name="price_unit_j">￥</string>
+
+    <!-- DOWNLOAD -->
+    <string name="title_btn_done_j">閉じる</string>
+    <string name="popup_content_j">アクションを選択してください。</string>
+    <string name="title_btn_download_j">ダウンロード</string>
+    <string name="title_btn_open_j">ファイル閲覧</string>
+    <string name="title_btn_cancel_j">キャンセル</string>
+    <string name="title_mess_file_dont_exist_j">ファイルが存在しない</string>
+
+    <!-- NEWS -->
+    <string name="title_popup_sort_j">ソート</string>
+    <string name="title_btn_name_sort_j">タイトル</string>
+    <string name="title_btn_date_sort_j">日付</string>
+    <string name="title_btn_category_sort_j">カテゴリ</string>
+    <string name="title_btn_news_category_j">ニュース</string>
+    <string name="title_screen_j">ニュース</string>
+    <string name="ec_home_j">ザ・セレクション</string>
+
+    <!-- EC -->
+    <string name="ec_price_j">値段</string>
+    <string name="ec_price_unit_j">¥</string>
+    <string name="ec_in_stock_j">在庫あり</string>
+    <string name="ec_out_stock_j">在庫切れ</string>
+    
+    <!-- EC MYCART -->
+    <string name="ec_mycart_header_j">カート</string>
+    <string name="ec_mycart_price_j">単価(税込)</string>
+    <string name="ec_mycart_price_unit_j">¥</string>
+    <string name="ec_mycart_quantity_j">数量</string>
+    <string name="ec_mycart_amount_j">合計(税込)</string>
+    <string name="ec_mycart_total_j">合計(税込)</string>
+    <string name="ec_mycart_bt_checkout_j">お会計に進む</string><!-- レジへ進む -->
+    <string name="ec_mycart_bt_continue_j">お買い物を続ける</string><!-- ショッピングを続ける -->
+    <string name="product_detail">PRODUCT DETAIL</string>
+    <string name="product_detail_j">商品詳細</string>
+    <string name="add_to_cart_j">カートに追加</string>
+    <string name="add_to_cart2_j">カートに追加</string>
+    <string name="ec_mycart_add_status_j">商品をショッピングカートに追加しました。</string>
+    <string name="ec_mycart_add_totalcart_j">カートに%sアイテム入っています。</string>
+    <string name="ec_mycart_add_totaltax_j">商品合計(税込）:</string>
+    <string name="ec_mycart_add_ship_j">配送料（税込）:</string><!-- 送料合計(税込) -->
+    <string name="ec_mycart_add_ship_status_j">送料無料</string>
+    <string name="ec_mycart_add_tax_j">消費税:</string>
+    <string name="ec_mycart_add_total_j">合計(税込）:</string>
+    <string name="ec_address_header_j">配送先編集 </string><!-- 送付先  配送先-->
+    <string name="ec_address_delivery_title_j">標準の配送先住所</string><!-- 送付先 -->
+    <string name="ec_address_name_j">氏名:</string>
+    <string name="ec_address_tel_j">電話：</string>
+    <string name="ec_address_mail_j">メール:</string>
+    <string name="ec_address_shipping_j">配送先住所：</string><!-- 送付先 -->
+    <string name="ec_address_bt_update_j">更新</string>
+    <string name="ec_address_bt_choose_j">他の配送先住所をアドレス帳から選択する</string><!-- 送付先 -->
+    <string name="ec_address_delivery_check_j">配送先住所を請求先住所として使用する</string><!-- 送付先 -->
+    <string name="ec_address_billing_title_j">請求先住所</string>
+    <string name="ec_address_bt_add_j">新しい住所を追加</string>
+    <string name="ec_address_book_header_j">アドレス帳</string>
+    <string name="ec_address_book_select_j">この住所を選択 </string>
+    <string name="ec_address_new_header_j">新規住所登録</string>
+    <string name="ec_address_new_title_j">新しい配送先住所を登録する</string><!-- 送付先 -->
+    <string name="ec_address_new_fname_j">名 (</string>
+    <string name="ec_address_new_lname_j">姓 (</string>
+    <string name="ec_address_new_company_j">会社</string>
+    <string name="ec_address_new_address_j">住所 (</string>
+    <string name="ec_address_new_address2_j">住所２</string>
+    <string name="ec_address_new_zipcode_j">郵便番号 (</string>
+    <string name="ec_address_new_city_j">市区町村 (</string>
+    <string name="ec_address_new_state_j">都道府県 (</string>
+    <string name="ec_address_new_country_j">国 (</string>
+    <string name="ec_address_new_homephone_j">電話番号 (</string>
+    <string name="ec_address_new_mobile_j">携帯電話番号 (</string>
+    <string name="ec_address_new_info_j">追加情報</string>
+    <string name="ec_address_new_alias_j">略称 (</string><!--   今後参照するためのアドレスタイトルを割り当ててください。 ( -->
+    <string name="ec_address_new_bt_save_j">保存する</string><!-- 保存 -->
+    <string name="ec_address_edit_header_j">配送先編集</string><!-- 送付先 -->
+    <string name="ec_credit_header_j">クレジットカード</string>
+    <string name="ec_credit_name_j">氏名:</string>
+    <string name="ec_credit_tel_j">Tel:</string>
+    <string name="ec_credit_cardnum_j">カード番号：</string>
+    <string name="ec_credit_exp_j">有効期限：</string>
+    <string name="ec_credit_select_j">このカードを選択</string>
+    <string name="ec_creditnew_header_j">新規クレジットカード登録</string>
+    <string name="ec_creditnew_name_j">ご登録氏名</string>
+    <string name="ec_creditnew_cardnum_j">カード番号</string>
+    <string name="ec_creditnew_code_j">セキュリティコード</string>
+    <string name="ec_creditnew_expired_j">利用期限</string>
+    <string name="ec_creditnew_phone_j">ご登録電話番号</string>
+    <string name="ec_creditnew_email_j">メールアドレス</string>
+    <string name="ec_creditnew_bt_save_j">保存する</string><!-- 保存 -->
+    <string name="ec_credit_confirm_header_j">カード情報確認</string>
+    <string name="ec_credit_confirm_amount_j">合計</string>
+    <string name="ec_credit_confirm_expired_j">有効期限 (MM / YYYY)</string>
+    <string name="ec_credit_confirm_bt_j">注文を完了する</string><!-- 注文を確認   注文を完了-->
+    <string name="ec_finish_header_j">注文完了</string>
+    <string name="ec_finish_status_j">注文が完了しました。</string>
+    <string name="ec_delete_confirm_j">この商品を削除してよろしいですか。</string>
+
+    <string-array name="array_menu_item">
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+        <item na="mail_box">Mail box</item>
+    </string-array>
+
+    <string name="eng">English</string>
+    <string name="ja">Japan</string>
+    <string name="eng2">ENGLISH</string>
+    <string name="ja2">JAPANESE</string>
+    <string name="ja2_j">日本語</string>
+    <string name="login_select_language">Select Language</string>
+    <string name="none"> </string>
+    <string name="none_j"> </string>
+    <string name="pdf_markert">You can a application for read PDF, click "Ok" to playstore.</string>
+    <string name="pdf_markert_j">PDFファイル開くアプリは必要です。ダウンロードする為「OK」ボタンを押してください。</string>
+    <string name="login_select_language_j">言語選択</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="out_of_stock_j">Out of stock j</string>
+    <!-- color -->
+    <!-- <color name="servicelist_first">#b4d6e6</color> -->
+    
+    <string name="month">月</string>
+    <string name="btn_set">Set</string>
+    <string name="btn_set_j">設定</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_cancel_j">キャンセル</string>
+    
+    <string name="ec_addtocart_error">This product is only for platinum member. Please upgrade to Platinum to purchase.</string>
+	<string name="ec_addtocart_error_j">この商品はプラチナ会員限定の商品です。購入するためにプラチナ会員へアップグレードしてください。</string><!-- この商品はプラチナ専用の商品です。購入するためにプラチナへアップグレードしてください。 -->
+	<string name="ec_addtocart_btn_error">Upgrade Now</string>
+	<string name="ec_addtocart_btn_error_j">今すぐアップグレード</string>
+	
+	<string name="msg_err_connect_new">Please check network then reconnect.</string>
+	<string name="msg_err_connect_new_j">ネットワークを確認してからもう一度接続してください。</string>
+	
+	<string name="myaccount">My Account</string>
+	<string name="myaccount_j">マイアカウント</string>
+	<string name="myaccount_history">Order History</string>
+	<string name="myaccount_history_j">注文履歴</string>
+	<string name="myaccount_address">My Addresses</string>
+	<string name="myaccount_address_j">住所</string>
+	<string name="myaccount_info">My Personal Information</string>
+	<string name="myaccount_info_j">個人情報</string>
+	<string name="myaccount_credit">My Credit Cards</string>
+	<string name="myaccount_credit_j">クレジットカード情報</string>
+	<string name="myaccount_favorite">My Favourite Products</string>
+	<string name="myaccount_favorite_j">お気に入り商品</string>
+	<string name="myaccount_cancel">Cancel</string>
+	<string name="myaccount_cancel_j">キャンセル</string>
+	
+	<string name="mya_history">Purchase History</string>
+	<string name="mya_history_j">注文履歴</string>
+	<string name="mya_history_des">Here are the orders you\'ve placed since your account was created.</string>
+	<string name="mya_history_des_j">このアカウントで、お客様が過去にご注文された履歴が表示されています。</string>
+	<string name="mya_history_reference">Order reference</string>
+	<string name="mya_history_reference_j">注文番号</string>
+	<string name="mya_history_date">Date</string>
+	<string name="mya_history_date_j">日付</string>
+	<string name="mya_history_totalprice">Total price</string>
+	<string name="mya_history_totalprice_j">合計</string>
+	<string name="mya_history_payment">Payment</string>
+	<string name="mya_history_payment_j">お支払方法</string><!-- お支払い -->
+	<string name="mya_history_status">Status</string>
+	<string name="mya_history_status_j">ステータス</string>
+	<string name="mya_history_invoice">Invoice</string>
+	<string name="mya_history_invoice_j">購入明細書</string>
+	<string name="mya_history_detail">Detail</string>
+	<string name="mya_history_detail_j">詳細</string>
+	<string name="mya_history_reorder">Reorder</string>
+	<string name="mya_history_reorder_j">再注文</string>
+	
+	<string name="mya_address">ADDRESS BOOK</string>
+	<string name="mya_address_des1">This is a function that can registered the address of your friends or relatives.</string>
+	<string name="mya_address_des2">Your registered address is as below.</string>
+	<string name="mya_address_des3">If it is changed, please update.</string>
+	<string name="mya_address_alias">ALIAS</string>
+	<string name="mya_address_name">Name:</string>
+	<string name="mya_address_company">Company:</string>
+	<string name="mya_address_address1">Address:</string>
+	<string name="mya_address_address2">Address 2:</string>
+	<string name="mya_address_code">Postal code:</string>
+	<string name="mya_address_city">City:</string>
+	<string name="mya_address_prefectures">Prefectures:</string>
+	<string name="mya_address_country">Country:</string>
+	<string name="mya_address_tel">Tel (input half size):</string>
+	<string name="mya_address_mobilephone">Mobile phone:</string>
+	<string name="mya_address_more">More info:</string>
+	<string name="mya_address_update">Update</string>
+	<string name="mya_address_delete">Delete</string>
+	<string name="mya_address_addnew">Add New Address</string>
+	<string name="mya_address_delete_confirm">Do you want to delete this address?</string>
+	
+	<string name="mya_address_j">住所</string>
+	<string name="mya_address_des1_j">お友達や親戚などの住所を登録をしておくことができる機能です。</string>
+	<string name="mya_address_des2_j">ご登録住所は以下の通りです。 </string>
+	<string name="mya_address_des3_j">変更される場合は、更新ボタンを押してください。</string><!-- 変更される場合は、更新してください。 -->
+	<string name="mya_address_alias_j">ALIAS</string>
+	<string name="mya_address_name_j">氏名:</string>
+	<string name="mya_address_company_j">会社:</string>
+	<string name="mya_address_address1_j">住所:</string>
+	<string name="mya_address_address2_j">住所2:</string>
+	<string name="mya_address_code_j">郵便番号:</string>
+	<string name="mya_address_city_j">市区町村:</string>
+	<string name="mya_address_prefectures_j">都道府県:</string>
+	<string name="mya_address_country_j">国:</string>
+	<string name="mya_address_tel_j">電話番号（半角入力）:</string>
+	<string name="mya_address_mobilephone_j">携帯電話:</string>
+	<string name="mya_address_more_j">追加情報:</string>
+	<string name="mya_address_update_j">更新</string>
+	<string name="mya_address_delete_j">削除</string>
+	<string name="mya_address_addnew_j">新規住所を追加する</string>
+	<string name="mya_address_delete_confirm_j">本当に削除しますか？</string><!-- 本当によろしいですか？ -->
+	
+	<string name="mya_credit_add">Add Credit Card</string>
+	<string name="mya_credit_title">In this account, display the credit card that customer was used in the past.</string>
+	
+	<string name="mya_credit_name">Name:</string>
+	<string name="mya_credit_cardnum">Card number:</string>
+	<string name="mya_creditnew_code">Sercurity code:</string>
+	<string name="mya_credit_exp">Expire date:</string>
+	<string name="mya_credit_tel">Tel:</string>
+    <string name="mya_creditnew_email">Email:</string>
+    <string name="mya_credit_update">Update</string>
+	<string name="mya_credit_delete">Delete</string>
+	<string name="mya_credit_delete_confirm">Do you want to delete this card?</string>
+    
+	<string name="mya_credit_add_j">新しいカードを追加</string><!-- 新規クレジットカードを追加する -->
+	<string name="mya_credit_title_j">このアカウントで、お客様が過去に使用したクレジットカードが表示されています。</string>
+	<string name="mya_credit_name_j">氏名:</string>
+	<string name="mya_credit_cardnum_j">カード番号:</string>
+	<string name="mya_creditnew_code_j">セキュリティーコード:</string>
+	<string name="mya_credit_exp_j">有効期限:</string>
+	<string name="mya_credit_tel_j">電話番号（半角入力）:</string>
+    <string name="mya_creditnew_email_j">メール:</string>
+    <string name="mya_credit_update_j">更新</string>
+	<string name="mya_credit_delete_j">削除</string>
+	<string name="mya_credit_delete_confirm_j">本当によろしいですか？</string>
+	
+	<string name="mya_purchase">Purchase Detail</string>
+	<string name="mya_purchase_orderreference">Order reference</string>
+	<string name="mya_purchase_shipping">Shipping</string>
+	<string name="mya_purchase_payment">Payment</string>
+	<string name="mya_purchase_date">Date</string>
+	<string name="mya_purchase_status">Status</string>
+	<string name="mya_purchase_delivery">DELIVERY ADDRESS (%s)</string>
+	<string name="mya_purchase_invoice">INVOICE ADDRESS (%s)</string>
+	<!-- product -->
+	<string name="mya_purchase_reference">Reference</string>
+	<string name="mya_purchase_product">Product</string>
+	<string name="mya_purchase_quantity">Quantity</string>
+	<string name="mya_purchase_unitprice">Unit price</string>
+	<string name="mya_purchase_totalprice">Total price</string>
+	<!-- total -->
+	<string name="mya_purchase_taxincl">Items (tax incl.)</string>
+	<string name="mya_purchase_shipandhand">Shipping and handling (tax incl.)</string>
+	<string name="mya_purchase_total">Total</string>
+	<!-- ship -->
+	<string name="mya_purchase_ship_date">Date</string>
+	<string name="mya_purchase_ship_carrier">Carrier</string>
+	<string name="mya_purchase_ship_weight">Weight</string>
+	<string name="mya_purchase_ship_cost">Shipping cost</string>
+	<string name="mya_purchase_ship_number">Tracking number</string>
+	<!-- message -->
+	<string name="mya_purchase_message_title">ADD A MESSAGE</string>
+	<string name="mya_purchase_message_desc">If you would like to add a comment about your order, please write it in the field below.</string>
+	<string name="mya_purchase_message_product">Product</string>
+	<string name="mya_purchase_message_liststart">Start</string>
+	<string name="mya_purchase_message_listvalue">Message</string>
+	<string name="mya_purchase_message_send_btn">Send</string>
+	
+	<string name="mya_purchase_j">注文詳細</string>
+	<string name="mya_purchase_orderreference_j">注文参照</string>
+	<string name="mya_purchase_shipping_j">配送</string>
+	<string name="mya_purchase_payment_j">支払い方法</string>
+	<string name="mya_purchase_date_j">日付</string>
+	<string name="mya_purchase_status_j">ステータス</string>
+	<string name="mya_purchase_delivery_j">配送先住所 (%s)</string>
+	<string name="mya_purchase_invoice_j">請求先住所 (%s)</string>
+	<!-- product -->
+	<string name="mya_purchase_reference_j">注文参照</string>
+	<string name="mya_purchase_product_j">商品</string>
+	<string name="mya_purchase_quantity_j">数量</string>
+	<string name="mya_purchase_unitprice_j">単価</string>
+	<string name="mya_purchase_totalprice_j">合計</string>
+	<!-- total -->
+	<string name="mya_purchase_taxincl_j">商品アイテム （税込）</string>
+	<string name="mya_purchase_shipandhand_j">配送料 （税込）</string>
+	<string name="mya_purchase_total_j">合計</string>
+	<!-- ship -->
+	<string name="mya_purchase_ship_date_j">日付</string>
+	<string name="mya_purchase_ship_carrier_j">配送</string>
+	<string name="mya_purchase_ship_weight_j">重量</string>
+	<string name="mya_purchase_ship_cost_j">配送料</string>
+	<string name="mya_purchase_ship_number_j">追跡番号</string>
+	<!-- message -->
+	<string name="mya_purchase_message_title_j">メッセージを追加</string>
+	<string name="mya_purchase_message_desc_j">ご注文に関して、ご意見がございましたら、下記にご記入 ください。</string>
+	<string name="mya_purchase_message_product_j">商品</string>
+	<string name="mya_purchase_message_liststart_j">開始</string>
+	<string name="mya_purchase_message_listvalue_j">メッセージ</string>
+	<string name="mya_purchase_message_send_btn_j">送信する</string>
+	
+	<string name="favorite_add">Add this product to my list of favorites.</string>
+	<string name="favorite_remove">Remove this product from my list of favorites.</string>
+	<string name="favorite_header">My favourite products</string>
+	<string name="favorite_delete_btn">Delete</string>
+	
+	<string name="favorite_add_j">ほしいものリストにこの商品を追加</string>
+	<string name="favorite_remove_j">ほしいものリストからこの商品を削除</string>
+	<string name="favorite_header_j">ほしいものリスト</string>
+	<string name="favorite_delete_btn_j">削除</string>
+	
+	<string name="favorite_list">My favourite products</string>
+	<string name="favorite_delete">Delete</string>
+	<string name="favorite_list_j">ほしいものリスト</string>
+	<string name="favorite_delete_j">削除</string>
+	
+	<string name="create_credit_done">This credit card is saved</string>
+	<string name="create_credit_done_j">このクレジットカードを保存しました</string>
+	
+	<string name="forgot_id">Forgot your ID?</string>
+	<string name="forgot_id_email">Email</string>
+	<string name="forgot_id_name">Name</string>
+	<string name="forgot_id_mobile">Mobile</string>
+	<string name="forgot_id_desc1">For futher information, please contact</string><!-- For others, please contact -->
+	<string name="forgot_id_desc2"></string>
+	<string name="forgot_id_j">IDをお忘れの方はこちらへ </string>
+	<string name="forgot_id_email_j">メールアドレス</string>
+	<string name="forgot_id_name_j">氏名</string>
+	<string name="forgot_id_mobile_j">電話番号</string>
+	<string name="forgot_id_desc1_j">その他のお問い合せは</string>
+	<string name="forgot_id_desc2_j">までご連絡下さい</string>
+	<string name="msg_forgot_id_success">We\'ve resent you ID.Please check your email.</string>
+    <string name="msg_forgot_id_success_j">ごIDを再度お送りしました。ご確認下さい。</string>
+    <string name="delete_credit_done">This credit card is deleted</string>
+	<string name="delete_credit_done_j">このクレジットカードを削除しました</string>
+	<string name="delete_address_done">This address is deleted</string>
+	<string name="delete_address_done_j">この住所を削除しました</string>
+	<string name="create_address_done">This address is saved</string>
+	<string name="create_address_done_j">この住所を保存しました</string>
+	
+	<string name="country_default">日本</string>
+	<string name="user_expired">Account %s is expired. Please contact us to reactivate your account.</string><!-- Account %s is expired. Please contact us to re-active your account. -->
+	<string name="user_expired_j">%sは更新月を過ぎているため無効になっております。こちらの画面からお問い合わせください。</string><!-- は更新月を過ぎているため無効になっております。こちらのお問い合わせ画面からお問い合わせください。 -->
+	
+	<string name="payment_info_s_date">Contract’s start date</string>
+	<string name="payment_info_e_date">Next update date</string>
+	<string name="payment_info_amount">Payment amount</string>
+	<string name="payment_info_amount_month">This month amount</string>
+	<string name="payment_info_s_date_j">契約開始日時</string>
+	<string name="payment_info_e_date_j">更新すべき月</string>
+	<string name="payment_info_amount_j">金額</string>
+	<string name="payment_info_amount_month_j">今月の支払い金額</string>
+	
+	<string name="contract_team_header">TERMS OF USE</string>
+    <string name="contract_team_header_j">会員規約</string>
+    <string name="contract_team_more">Read the Terms of Use</string>
+    <string name="contract_team_more_j">会員規約を読む</string>
+    
+    <string name="contact_update_contract">Update contract</string>
+    <string name="contact_update_contract_j">契約更新について</string>
+    
+    <string name="myaccount_address_edit_header">EDIT ADDRESS</string>
+    <string name="myaccount_address_edit_header_j">住所編集</string><!-- 配送先編集 -->
+    
+    <string name="favorite_delete_confirm">Do you want to delete this product?</string>
+    <string name="favorite_delete_confirm_j">この商品を削除してよろしいですか。</string>
+    
+    <string name="mycart_validate_out">Out of stock</string>
+    <string name="mycart_validate_out_j">在庫切れ</string>
+    <string name="mycart_validate_in">In stock ： %s</string>
+    <string name="mycart_validate_in_j">在庫数 ： %s</string>
+    
+    <string name="ec_credit_expired">This credit card is expired.</string>
+    <string name="ec_credit_expired_j">カードの有効期限が過ぎています。</string>
+    
+    <string name="v2_forgot_birth">Date Of Birth</string>
+    <string name="v2_forgot_birth_j">生年月日</string>
+    
+    <string name="membership_team">To use our services, you must agree with the Terms of Use.</string>
+    <string name="membership_team_j">利用規約に同意しますか。</string>
+    
+    <string name="v2_notifi_mail">Email</string>
+    <string name="v2_notifi_mail_j">メール</string>
+    <string name="v2_notifi_new">News</string>
+    <string name="v2_notifi_new_j">新着情報</string>
+    <!-- ga -->
+    <string name="ga_my_account_eng">my account</string>
+    <string name="ga_purchase_history_eng">purchase history</string>
+    <string name="ga_purchase_history_detail_eng">purchase history detail</string>
+    <string name="ga_address_eng">address</string>
+    <string name="ga_address_edit_eng">address edit</string>
+    <string name="ga_user_information_eng">user information</string>
+    <string name="ga_contract_management_eng">contract management</string>
+    <string name="ga_favourite_product_eng">favourite product</string>
+    <string name="ga_credit_information_eng">credit information</string>
+    <string name="ga_category_eng">category</string>
+    <string name="ga_new_product_eng">new product</string>
+    <string name="ga_platinum_product_eng">platinum product</string>
+    <string name="ga_carefully_selected_gourmet_eng">carefully selected gourmet</string>
+    <string name="ga_wine_sake_eng">wine sake</string>
+    <string name="ga_food_beverage_eng">food beverage</string>
+    <string name="ga_fruit_eng">fruit</string>
+    <string name="ga_art_eng">art</string>
+    <string name="ga_careful_gift_eng">careful gift</string>
+    <string name="ga_cart__eng">cart </string>
+    <string name="ga_product_detail_eng">product detail</string>
+    <string name="ga_add_to_cart_eng">add to cart</string>
+    <string name="ga_shoping_cart_list_eng">shoping cart list</string>
+    <string name="ga_deliver_address_eng">deliver address</string>
+    <string name="ga_deliver_method_eng">deliver method</string>
+    <string name="ga_payment_eng">payment</string>
+    <string name="ga_credit_card_payment_eng">credit card payment</string>
+    <string name="ga_order_successful_eng">order successful</string>
+    <string name="ga_my_account_jap">マイアカウント</string>
+    <string name="ga_purchase_history_jap">注文履歴</string>
+    <string name="ga_purchase_history_detail_jap">注文履歴詳細</string>
+    <string name="ga_address_jap">住所</string>
+    <string name="ga_address_edit_jap">住所詳細</string>
+    <string name="ga_user_information_jap">会員情報</string>
+    <string name="ga_contract_management_jap">ご契約管理</string>
+    <string name="ga_favourite_product_jap">お気に商品</string>
+    <string name="ga_credit_information_jap">クレジットカード情報</string>
+    <string name="ga_category_jap">カテゴリー</string>
+    <string name="ga_new_product_jap">新着商品</string>
+    <string name="ga_platinum_product_jap">プラチナ商品</string>
+    <string name="ga_carefully_selected_gourmet_jap">厳選グルメ</string>
+    <string name="ga_wine_sake_jap">ワインお酒</string>
+    <string name="ga_food_beverage_jap">食品　お飲物</string>
+    <string name="ga_fruit_jap">フルーツ</string>
+    <string name="ga_art_jap">アート</string>
+    <string name="ga_careful_gift_jap">厳選ギフト券</string>
+    <string name="ga_cart__jap">カート</string>
+    <string name="ga_product_detail_jap">商品詳細</string>
+    <string name="ga_add_to_cart_jap">カートに追加</string>
+    <string name="ga_shoping_cart_list_jap">ショッピングカートの商品一覧</string>
+    <string name="ga_deliver_address_jap">配送先住所</string>
+    <string name="ga_deliver_method_jap">配送方法</string>
+    <string name="ga_payment_jap">お支払い</string>
+    <string name="ga_credit_card_payment_jap">クレジットカード払い</string>
+    <string name="ga_order_successful_jap">ご注文完了</string>
+
+</resources>

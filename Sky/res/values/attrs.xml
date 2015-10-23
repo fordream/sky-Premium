@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MTextView">
+        <attr name="txtFont" format="enum">
+            <enum name="Bold" value="0" />
+            <enum name="ExtraLight" value="1" />
+            <enum name="Light" value="2" />
+            <enum name="Medium" value="3" />
+        </attr>
+        <attr name="txtStyle" format="enum">
+            <enum name="u" value="0" />
+            <enum name="i" value="1" />
+        </attr>
+        <attr name="txtEng" format="string"></attr>
+        <attr name="txtJa" format="string"></attr>
+        <attr name="txtHintEng" format="string"></attr>
+        <attr name="txtHintJa" format="string"></attr>
+        <attr name="txtTouch" format="enum">
+            <enum name="yes" value="1"></enum>
+            <enum name="no" value="0"></enum>
+        </attr>
+    </declare-styleable>
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+    <declare-styleable name="FlipView">
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+        <attr name="overFlipMode" format="enum">
+            <enum name="glow" value="0" />
+            <enum name="rubber_band" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

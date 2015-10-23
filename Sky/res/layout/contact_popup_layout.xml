@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_retangle_boder"
+    android:orientation="vertical" 
+    
+    >
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_16sp"
+        android:text="@string/contact_title"
+        custom:txtEng="@string/contact_title"
+        custom:txtJa="@string/contact_title_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_about_spmc_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+        android:text="@string/contact_title"
+        android:textSize="@dimen/dimen_12dp"
+        custom:txtEng="@string/contact_type_about_spmc"
+        custom:txtJa="@string/contact_type_about_spmc_j" /><!-- popu_btn_gray -->
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_about_annual_fee_id"	
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+         android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_about_annual_fee"
+        custom:txtEng="@string/contact_type_about_annual_fee"
+        custom:txtJa="@string/contact_type_about_annual_fee_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_cancel_the_membership_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+         android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_about_cancel_membership"
+        custom:txtEng="@string/contact_type_about_cancel_membership"
+        custom:txtJa="@string/contact_type_about_cancel_membership_j" />
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_about_personal_infor_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+         android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_about_personal_information"
+        custom:txtEng="@string/contact_type_about_personal_information"
+        custom:txtJa="@string/contact_type_about_personal_information_j" />
+	<org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_about_personal_upgrate_request_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+         android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_about_upgrate_request"
+        custom:txtEng="@string/contact_type_about_upgrate_request"
+        custom:txtJa="@string/contact_type_about_upgrate_request_j" />
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_other_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+        android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_other"
+        custom:txtEng="@string/contact_type_other"
+        custom:txtJa="@string/contact_type_other_j" />
+	<org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_update_contract_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/popu_btn_confirm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="@color/color_popup_text_select"
+        android:textSize="@dimen/dimen_12dp"
+        android:text="@string/contact_type_update_contract"
+        custom:txtEng="@string/contact_type_update_contract"
+        custom:txtJa="@string/contact_type_update_contract_j" />
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/popup_back_id"
+        android:layout_width="@dimen/dimen_280dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/select_option_on_radius"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/dimen_12dp"
+        android:text="@string/tlt_back"
+        custom:txtEng="@string/tlt_back"
+        custom:txtJa="@string/tlt_back_j" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_20dp"
+        />
+
+</LinearLayout>

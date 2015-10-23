@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.SkyPremiumLtd.SkyPremium"
+    android:id="@+id/phonecode_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:background="#ededed">
+        
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_reference"
+	            custom:txtEng="@string/mya_history_reference"
+	            custom:txtJa="@string/mya_history_reference_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_reference"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout>
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#c3c3c3"
+	        android:layout_marginTop="@dimen/dimen_13dp"/>
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_date"
+	            custom:txtEng="@string/mya_history_date"
+	            custom:txtJa="@string/mya_history_date_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout>
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#c3c3c3"
+	        android:layout_marginTop="@dimen/dimen_13dp"/>
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_totalprice" 
+	            custom:txtEng="@string/mya_history_totalprice"
+	            custom:txtJa="@string/mya_history_totalprice_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_totalprice"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout>
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#c3c3c3"
+	        android:layout_marginTop="@dimen/dimen_13dp"/>
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_payment" 
+	            custom:txtEng="@string/mya_history_payment"
+	            custom:txtJa="@string/mya_history_payment_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_payment"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout>
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#c3c3c3"
+	        android:layout_marginTop="@dimen/dimen_13dp"/>
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_status"
+	            custom:txtEng="@string/mya_history_status"
+	            custom:txtJa="@string/mya_history_status_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_status"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout>
+	    
+	    <!-- <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#c3c3c3"
+	        android:layout_marginTop="@dimen/dimen_13dp"/>
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginLeft="@dimen/dimen_10dp"
+	        android:layout_marginRight="@dimen/dimen_10dp"
+	        android:layout_marginTop="@dimen/dimen_13dp"
+	        android:layout_marginBottom="@dimen/dimen_13dp">
+
+	        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dimen_20dp"
+	            android:text="@string/mya_history_invoice" 
+	            custom:txtEng="@string/mya_history_invoice"
+	            custom:txtJa="@string/mya_history_invoice_j"
+	            android:layout_alignParentLeft="true"
+	            style="@style/myaccount_history_title"/>
+
+	        <TextView
+	            android:id="@+id/mya_history_invoice"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="@dimen/dimen_14dp" 
+	            android:layout_alignParentRight="true"
+	            style="@style/myaccount_history_value"/>
+	    </RelativeLayout> -->
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:layout_marginBottom="@dimen/dimen_10dp">
+	        <!-- abc -->
+	        <LinearLayout 
+		        android:layout_width="@dimen/dimen_150dp"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_alignParentLeft="true"
+		        android:gravity="center_vertical|left"
+		        android:layout_marginLeft="@dimen/dimen_10dp">
+		        	<LinearLayout
+		        	    android:id="@+id/mya_history_detail"
+				        android:layout_width="@dimen/dimen_100dp"
+				        android:layout_height="match_parent"
+				        android:background="@drawable/btn_checkout"
+				        android:orientation="horizontal"
+				        android:gravity="center_horizontal|center_vertical"
+				        android:layout_marginTop="@dimen/dimen_10dp"
+				        android:layout_marginBottom="@dimen/dimen_10dp"><!-- button_ec_addressnew_radius -->
+				         <ImageView 
+				             android:layout_width="@dimen/dimen_16dp"
+				             android:layout_height="@dimen/dimen_16dp"
+				             android:layout_gravity="center_vertical"
+				             android:layout_marginLeft="@dimen/dimen_10dp"
+				             android:src="@drawable/myaccount_history_detail"/>
+				         <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			                 android:layout_width="@dimen/dimen_80dp"
+			                 android:layout_height="@dimen/dimen_40dp"
+			                 android:paddingLeft="@dimen/dimen_10dp"
+			                 android:paddingRight="@dimen/dimen_10dp"
+			                 android:gravity="center"
+			                 android:text="@string/mya_history_detail"
+			                 custom:txtEng="@string/mya_history_detail"
+			                 custom:txtJa="@string/mya_history_detail_j"
+			                 android:textColor="#ffffff"
+			                 android:textSize="@dimen/dimen_15dp"/>
+			         </LinearLayout>
+		    </LinearLayout>
+		    <LinearLayout 
+		        android:layout_width="@dimen/dimen_150dp"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_alignParentRight="true"
+		        android:gravity="center_vertical|right"
+		        android:layout_marginRight="@dimen/dimen_10dp">
+		        	<LinearLayout
+		        	    android:id="@+id/mya_history_reorder"
+				        android:layout_width="@dimen/dimen_100dp"
+				        android:layout_height="match_parent"
+				        android:background="@drawable/btn_checkout"
+				        android:orientation="horizontal"
+				        android:gravity="center_horizontal|center_vertical"
+				        android:layout_marginTop="@dimen/dimen_10dp"
+				        android:layout_marginBottom="@dimen/dimen_10dp"><!-- button_ec_addressnew_radius -->
+				         <ImageView 
+				             android:layout_width="@dimen/dimen_16dp"
+				             android:layout_height="@dimen/dimen_16dp"
+				             android:layout_gravity="center_vertical"
+				             android:layout_marginLeft="@dimen/dimen_10dp"
+				             android:src="@drawable/myaccount_history_reorder"/>
+				         <org.com.atmarkcafe.sky.customviews.charting.MTextView
+			                 android:layout_width="@dimen/dimen_80dp"
+			                 android:layout_height="@dimen/dimen_40dp"
+			                 android:paddingLeft="@dimen/dimen_10dp"
+			                 android:paddingRight="@dimen/dimen_10dp"
+			                 android:gravity="center"
+			                 android:text="@string/mya_history_reorder"
+			                 custom:txtEng="@string/mya_history_reorder"
+			                 custom:txtJa="@string/mya_history_reorder_j"
+			                 android:textColor="#ffffff"
+			                 android:textSize="@dimen/dimen_15dp"/>
+			         </LinearLayout>
+		    </LinearLayout>    	
+	        <!-- abc -->
+	    </RelativeLayout>
+	    
+	    
+	    
+		
+
+	</LinearLayout>			        
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:flipview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_sub_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <org.com.atmarkcafe.view.HeaderECView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </org.com.atmarkcafe.view.HeaderECView>
+
+        <LinearLayout
+            android:id="@+id/ec_ll_search_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ec_bg_search"
+            android:orientation="horizontal" >
+        </LinearLayout><!-- #036898 -->
+
+        <GridView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:divider="@drawable/tranfer"
+            android:dividerHeight="0px"
+            android:horizontalSpacing="@dimen/dimen_10dp"
+            android:listSelector="@drawable/tranfer"
+            android:numColumns="2"
+            android:scrollbarThumbVertical="@drawable/tranfer"
+            android:scrollbarTrackHorizontal="@drawable/tranfer"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/dimen_10dp" >
+        </GridView>
+    </LinearLayout>
+	<com.acv.cheerz.base.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </com.acv.cheerz.base.view.LoadingView>
+</RelativeLayout>
