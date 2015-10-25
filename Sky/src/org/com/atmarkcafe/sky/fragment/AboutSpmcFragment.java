@@ -232,7 +232,7 @@ public class AboutSpmcFragment extends BaseFragment implements OnClickListener{
 		webContent = (WebView) views.findViewById(R.id.about_webcontent_id);
 		webContent.getSettings().setJavaScriptEnabled(true);
 		webContent.getSettings().setAllowFileAccess(true);
-		webContent.getSettings().setPluginsEnabled(true);
+		//webContent.getSettings().setPluginsEnabled(true);
 		webContent.getSettings().setDefaultTextEncodingName("utf-8"); 
 		webContent.setBackgroundColor(Color.parseColor("#ededed"));
 		webContent.addJavascriptInterface(new JavaScriptInterface(), "android");
